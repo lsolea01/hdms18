@@ -1,0 +1,174 @@
+﻿     ---   C A L L   F O R   P A P E R S  ---
+
+  16th Hellenic Data Management Symposium (HDMS 2018)
+
+    July 2nd - July 4th 2018, Larnaca, Cyprus
+
+            https://hdms18.cs.ucy.ac.cy/
+
+      *** Submission Deadline: April 27, 2018 ***
+
+    ------------------------------------------
+
+The Hellenic Data Management Symposium (HDMS) is the annual
+forum for the Greek database community to present and
+discuss recent advances in the data management field.
+The 16th HDMS will be held between July 2-4, 2018 at the
+Golden Bay Beach Hotel in Larnaca, Cyprus
+(https://goldenbay.com.cy/) with a half-day session at the
+New Campus of the University of Cyprus in Nicosia, Cyprus
+(https://www.ucy.ac.cy/).
+
+Topics of interest include, but are not limited to:
+* Core database technologies (e.g., query processing and
+  optimization, storage and indexing, database concurrency
+  control, OLTP and OLAP processing).
+* Non-traditional data management architectures (e.g., data
+  stream management, cloud data management, peer-to-peer
+  systems, mobile data management, blockchain databases).
+* Data management applications (e.g., geographical
+  information systems, data warehouses, social networks,
+  scientific databases, IoT, crowd sourcing).
+* Models and languages for the management of data (e.g., XML,
+  RDF, probabilistic databases, meta-data management,
+  multi-media, graph data management).
+* Techniques for high performance and scalability in the
+  management of  data (e.g., distributed data processing,
+  hardware accelerators, new hardware technologies).
+* Confluence of data management with: information retrieval,
+  knowledge management, natural language processing, and data
+  mining.
+* Other aspects of modern information systems (e.g.,
+  security, privacy, user interfaces, energy use
+  minimization).
+
+HDMS 2018 will feature the following tracks:
+(A) Research Track
+(B) Tutorial Track
+(C) Demonstration Track
+(D) Students Poster Track: A separate call is available on the conference website.
+
+For tracks (A)-(C) the following evaluation principles will
+apply:
+(i) Submissions recently accepted at top international conferences or journals, in the areas listed under the
+    topics of interest, are automatically accepted. The
+    venues that qualify for this track will be announced at
+    notification time, but includes at this time
+    SIGMOD, VLDB, PODS, ICDE, SIGIR, IEEE Big Data, VLDBJ,
+    IEEE TKDE and IEEE TPDS. Authors are urged to submit
+    their papers in the original format and length.
+(ii) Original work and accepted papers in other venues will undergo a separate evaluation by the Program Committee.
+    Authors must format their submissions according to the
+    official ACM Proceedings format. The submission length
+    should not exceed twelve (12) pages for (A) and four (4)
+    pages for both (B) and (C), respectively.
+
+Submissions must be submitted electronically in PDF to:
+https://cmt3.research.microsoft.com/HDMS2018/
+
+- Research/Demo: Submit under the "Research Track" on CMT.
+- Tutorial: Submit under the "Tutorial Track" on CMT.
+- Student Poster: Submit under the "Poster Track" on CMT.
+
+To help the Greek community form a consistent corpus of
+relevant terminology, all accepted papers, must be
+accompanied by (i) title and (ii) abstract in GREEK.
+This information is NOT required for submission.
+
+
+IMPORTANT DATES
+===============
++ Submission Deadline: **** Friday, April 27, 2018 ***
++ Notification of Acceptance: Friday, May 18, 2018
++ Camera Ready: Friday, June 1, 2018
++ Symposium Dates: Monday, July 2 - Wednesday, July 4, 2018
+
+
+ORGANIZING COMMITTEE
+====================
+General Co-Chairs:
++ Panos K. Chrysanthis (University of Pittsburgh, USA)
++ George Samaras (University of Cyprus, Cyprus)
+
+Program Co-Chairs:
++ Herodotos Herodotou (Cyprus University of Technology, Cyprus)
++ Demetris Zeinalipour (University of Cyprus, Cyprus)
+
+Panel Chair:
++ Marios D. Dikaiakos (University of Cyprus, Cyprus)
+
+Student Poster Chair:
++ Ekaterini Ioannou (Open University of Cyprus, Cyprus)
+
+Sponsorship Chair:
++ George Pallis (University of Cyprus, Cyprus)
+
+Proceedings Co-Chairs:
++ Ioannis Katakis (University of Nicosia, Cyprus)
++ Andreas Pamboris (UCLAN, Cyprus)
+
+Local Arrangements:
++ Christodoulos Efstathiades (European University, Cyprus)
++ Demosthenis Georgiades (University of Cyprus, Cyprus)
++ Andreas Konstantinidis (Frederick University, Cyprus)
++ Christoforos Panayiotou (University of Cyprus, Cyprus)
+
+Website Chair:
++ Constantinos Costa (University of Cyprus, Cyprus)
+
+Program Committee Members:
++ Anastasia Ailamaki, École Polytechnique Fédérale de Lausanne, Switzerland
++ Manos Athanassoulis, Harvard University, USA
++ Vassilis Christophides, University of Crete, Greece and INRIA, France
++ Antonios Deligiannakis, Technical University of Crete, Greece
++ Alex Delis, National and Kapodistrian University of Athens, Greece
++ Katerina Doka, National Technical University of Athens, Greece
++ George Fakas, Uppsala University, Sweden
++ Minos Garofalakis, ATHENA Research and Innovation Center and Technical University of Crete, Greece
++ Dimitrios Gunopulos, National and Kapodistrian University of Athens, Greece
++ Vagelis Hristidis, University of California - Riverside, USA
++ Panos Kalnis, King Abdullah University of Science and Technology, Saudi Arabia
++ Vana Kalogeraki, Athens University of Economics and Business, Greece
++ Konstantinos Karanasos, Microsoft Research, USA
++ Panagiotis Karras, Aarhus University, Denmark
++ Asterios Katsifodimos, Delft University of Technology, Netherlands
++ Yannis Katsis, University of California - San Diego, USA
++ George Konstantinidis, University of Southampton, UK
++ Manolis Koubarakis, National and Kapodistrian University of Athens, Greece
++ Nick Koudas, University of Toronto, Canada
++ Danai Koutra, University of Michigan, USA
++ Georgia Koutrika, ATHENA Research and Innovation Center, Greece
++ Paraschos Koutris, University of Wisconsin - Madison, USA
++ Alexandros Labrinidis, University of Pittsburgh, USA
++ Nikos Mamoulis, University of Ioannina, Greece
++ Kyriakos Mouratidis, Singapore Management University, Singapore
++ Emmanuel Müller, Hasso-Plattner-Institut, Germany
++ Themis Palpanas, Paris Descartes University, France
++ Dimitris Papadias, Hong Kong University of Science and Technology, Hong Kong
++ Olga Papaemmanouil, Brandeis University, USA
++ Odysseas Papapetrou, École Polytechnique Fédérale de Lausanne, Switzerland
++ George Papastefanatos, ATHENA Research and Innovation Center, Greece
++ Nikos Pelekis, University of Piraeus, Greece
++ Evaggelia Pitoura, University of Ioannina, Greece
++ Theodoros Rekatsinas, University of Wisconsin Madison, USA
++ Dimitris Sacharidis, Technische Universität Wien, Austria
++ Timos Sellis, Swinburne University of Technology, Australia
++ Kostas Stefanidis, University of Tampere, Finland
++ Manolis Terrovitis, ATHENA Research and Innovation Center, Greece
++ Yannis Theodoridis, University of Piraeus, Greece
++ Peter Triantafillou, University of Warwick, UK
++ Vassilis Tsotras, University of California - Riverside, USA
++ Dimitrios Tsoumakos, Ionian University, Greece
++ Vasilis Vassalos, Athens University of Economics and Business, Greece
++ Yannis Velegrakis, University of Trento, Italy
++ Stratis Viglas, University of Edinburgh, UK
++ Akrivi Vlachou, ATHENA Research and Innovation Center, Greece
+
+
+DBHELLAS
+========
+dbhellas is a mailing list for the members of the Greek
+database community. To subscribe to dbhellas you need to
+send a message to dbhellas-request@hdms.gr. To post a
+message, send an email to dbhellas@hdms.gr with the
+message as the body of the email.

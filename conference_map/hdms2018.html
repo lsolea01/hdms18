@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<!-- Mirrored from www.cyprusconferences.org/conference_map/hdms2018.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 May 2018 19:28:10 GMT -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>HDMS 2018 - Map</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4hoXl0p7LjPX89lCFL137n6CdbivG7WM"></script>
+
+<script type="text/javascript" src="scripts/downloadxml.js"></script>
+ <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+
+<style type="text/css"> 
+html, body { height: 450px; }
+
+</style>
+
+<script type="text/javascript"> 
+// this variable will collect the html which will eventually be placed in the side_bar 
+      var side_bar_html = ""; 
+
+    
+// arrays to hold copies of the markers and html used by the side_bar 
+// because the function closure trick doesnt work there 
+      var gmarkers = []; 
+var myVenue = new Object();
+var myHotels= new Object();
+var myAirports= new Object();
+var mybus= new Object();
+myVenue.side_bar_html="";
+
+myHotels.side_bar_html="";
+
+ myAirports.side_bar_html="";
+ mybus.side_bar_html="";
+
+// global "map" variable
+      var map = null;
+
+
+// A function to create the marker and set up the event window function 
+    function createMarker(anObject,latlng, name, html, image) {
+    var contentString = html;
+    var marker = new google.maps.Marker({
+        position: latlng,
+        map: map,
+icon: image,
+        zIndex: Math.round(latlng.lat()*-100000)<<5
+        });
+ 
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent(contentString); 
+        infowindow.open(map,marker);
+        });
+    // save the info we need to use later for the side_bar
+    gmarkers.push(marker);
+    // add a line to the side_bar html
+
+    anObject.side_bar_html += '<li class="list-group-item"><a href="javascript:document.getElementById(\'map_control\').contentWindow.myclick(' + (gmarkers.length-1) + ')">' + name + '<\/a><\/li>';
+}
+ 
+// This function picks up the click and opens the corresponding info window
+function myclick(i) {
+  google.maps.event.trigger(gmarkers[i], "click");
+}
+ 
+function initialize() {
+  // create the map
+  var myOptions = {
+    zoom: 9,
+    center: new google.maps.LatLng(34.977484, 33.691617),
+    mapTypeControl: true,
+    mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+    navigationControl: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+ 
+  google.maps.event.addListener(map, 'click', function() {
+        infowindow.close();
+        });
+// Read the data from XML folder
+//venue_side_bar
+      downloadUrl("XML/hdms2018venue.xml", function(doc) {
+        var xmlDoc = xmlParse(doc);
+        var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+        for (var i = 0; i < markers.length; i++) {
+          // obtain the attribues of each marker
+          var lat = parseFloat(markers[i].getAttribute("lat"));
+          var lng = parseFloat(markers[i].getAttribute("lng"));
+          var point = new google.maps.LatLng(lat,lng);
+          var html = markers[i].getAttribute("html");
+          var label = markers[i].getAttribute("label");
+          var image = markers[i].getAttribute("image");
+          // create the marker
+          var marker = createMarker(myVenue,point,label,html,image);
+        }
+        // put the assembled side_bar_html contents into the side_bar div
+        parent.document.getElementById("venue_side_bar").innerHTML = myVenue.side_bar_html;
+
+      });
+
+      downloadUrl("XML/hdms2018hotels.xml", function(doc) {
+        var xmlDoc = xmlParse(doc);
+        var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+        for (var i = 0; i < markers.length; i++) {
+          // obtain the attribues of each marker
+          var lat = parseFloat(markers[i].getAttribute("lat"));
+          var lng = parseFloat(markers[i].getAttribute("lng"));
+          var point = new google.maps.LatLng(lat,lng);
+          var html = markers[i].getAttribute("html");
+          var label = markers[i].getAttribute("label");
+          var image = markers[i].getAttribute("image");
+          // create the marker
+         var marker = createMarker(myHotels,point,label,html,image);
+        }
+
+        // put the assembled side_bar_html contents into the side_bar div
+        parent.document.getElementById("hotel_side_bar").innerHTML = myHotels.side_bar_html;
+
+      });
+  downloadUrl("XML/bus_LARNACA.xml", function(doc) {
+        var xmlDoc = xmlParse(doc);
+        var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+        for (var i = 0; i < markers.length; i++) {
+          // obtain the attribues of each marker
+          var lat = parseFloat(markers[i].getAttribute("lat"));
+          var lng = parseFloat(markers[i].getAttribute("lng"));
+          var point = new google.maps.LatLng(lat,lng);
+          var html = markers[i].getAttribute("html");
+          var label = markers[i].getAttribute("label");
+          var image = markers[i].getAttribute("image");
+          // create the marker
+          var marker = createMarker(mybus,point,label,html,image);
+        }
+        // put the assembled side_bar_html contents into the side_bar div
+        parent.document.getElementById("bus_side_bar").innerHTML = mybus.side_bar_html;
+
+      });
+
+      downloadUrl("XML/airports.xml", function(doc) {
+        var xmlDoc = xmlParse(doc);
+        var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+        for (var i = 0; i < markers.length; i++) {
+          // obtain the attribues of each marker
+          var lat = parseFloat(markers[i].getAttribute("lat"));
+          var lng = parseFloat(markers[i].getAttribute("lng"));
+          var point = new google.maps.LatLng(lat,lng);
+          var html = markers[i].getAttribute("html");
+          var label = markers[i].getAttribute("label");
+          var image = markers[i].getAttribute("image");
+          // create the marker
+          var marker = createMarker(myAirports,point,label,html,image);
+        }
+        // put the assembled side_bar_html contents into the side_bar div
+        parent.document.getElementById("airport_side_bar").innerHTML = myAirports.side_bar_html;
+
+      });
+
+
+
+    }
+ 
+var infowindow = new google.maps.InfoWindow(
+  { 
+    size: new google.maps.Size(150,50)
+  });
+    
+ </script> 
+</head>
+
+<body onload="initialize()">
+<div class="container">
+
+        <div class="row">
+
+                 <div id="map_canvas" style="width: 100%; height:450px"></div>
+
+    </div>
+</div>
+  
+    <!-- /.container -->
+
+</body>
+
+<!-- Mirrored from www.cyprusconferences.org/conference_map/hdms2018.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 May 2018 19:28:14 GMT -->
+</html>

@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="max-age=86400"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Πανεπιστήμιο Κύπρου</title>
+
+    <!-- favicon -->
+    <link href="University_of_Cyprus.svg.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        if (window.location.protocol !== "https:")
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar" onload="fixNavbarIssue()">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse"-->
+                            <!--data-target=".navbar-main-collapse">-->
+                        <!--<span class="sr-only">Toggle navigation</span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                    <!--</button>-->
+                    <a class="pull-right btn btn-default btn-sm hidden-sm hidden-md hidden-lg"
+                       href="javascript:english()">EN</a>
+
+                    <button class="navbar  pull-right search-form-tigger hidden-sm hidden-md hidden-lg" type="button"
+                            data-toggle="search-form" data-target="#search-form"><span class="fa fa-search"></span>
+                    </button>
+
+
+                    <!--<a class="navbar-brand page-scroll el" href="#page-top"><img src="img/twitter.png"></a>-->
+                    <img src="img/ucy_logo_el.png">
+
+
+                </div>
+
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+
+                        <li><a class="" href="#section-intro">ΑΡΧΗ</a></li>
+                        <!--<li><a class="" href="#section-intro">NEA</a></li>-->
+                        <!--<li><a class="" href="#section-topics">ΘΕΜΑΤΑ</a></li>-->
+                        <!--<li><a class="" href="#section-dates">ΗΜΕΡΕΣ</a></li>-->
+                        <!--<li><a class="dropdown-toggle" data-toggle="dropdown">πρόσκληση<b-->
+                                <!--class="caret"></b></a>-->
+                            <!--<ul class="dropdown-menu">-->
+                                <!--<li><a target="_blank" href="hdms18-cfp.txt" class="popup">ΓΙΑ ΕΡΕΥΝΗΤΕΣ</a></li>-->
+                                <!--<li><a target="_blank" href="hdms18-poster-cfp.txt" class="popup">ΓΙΑ ΦΟΙΤΗΤΕΣ</a></li>-->
+                                <!--<li><a href="https://cmt3.research.microsoft.com/HDMS2018/" target="_blank">Υποβολή</a>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
+                        <li><a class="dropdown-toggle" data-toggle="dropdown">Συμμετοχή<b class="caret"></b></a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a href="#section-venue">ΤΟΠΟΣ</a></li>
+                                <li><a href="#section-program">ΠΡΟΓΡΑΜΜΑ</a></li>
+                                <li><a href="#section-registration">ΕΓΓΡΑΦΗ</a></li>
+                                <li><a href="#section-accommodation">Κατηγορίες</a></li>
+                                <li><a href="#section-topics">Κανονισμοί</a></li>
+                                <li><a href="#section-age">Ηλικιες</a></li>
+                                <li><a href="#section-booklet">Ασφάλεια</a></li>
+                                <li><a href="#section-photos">Φωτογραφίες</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="" href="#section-committee">ΔΙΟΡΓΑΝΩΤΕΣ</a></li>
+                        <li><a class="" href="#section-contact"><span class="fa fa-at"
+                                                                      aria-hidden="true"></span></a></li>
+                        <!--<li><a id="navGr" href="index.el.html" class="language"><img id="imgNavGr" src="" alt="..."-->
+                        <!--class="img-thumbnail icon-small"> </a>-->
+                        <!--</li>-->
+
+                        <!--<li><a id="navEng" href="index.en.html" class="language"><img id="imgNavEng" src="" alt="..."-->
+                        <!--class="img-thumbnail icon-small"> </a>-->
+                        <!--</li>-->
+                        <li>
+                            <a class="hidden-xs search-form-tigger"
+                               data-toggle="search-form"><span class="fa fa-search" aria-hidden="true"></span></a>
+                        </li>
+                        <li>
+                            <a class="hidden-xs btn btn-default btn-sm" href="javascript:english()">EN</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+
+            </div>
+
+
+            <!-- /.container -->
+            <div class="search-form-wrapper">
+                <form class="search-form" id="" action="">
+                    <div class="input-group">
+                                 <span class="input-group-addon search-close" id="basic-addon2"><i
+                                         class="fa fa-window-close" aria-hidden="true"></i>
+                                </span>
+                        <span class="cont-control-cse">
+                              <script>
+                              (function () {
+                                  var cx = '008299684814490361202:lf-mmngkyec';
+                                  var gcse = document.createElement('script');
+                                  gcse.type = 'text/javascript';
+                                  gcse.async = true;
+                                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                  var s = document.getElementsByTagName('script')[0];
+                                  s.parentNode.insertBefore(gcse, s);
+                              })();
+                            </script>
+                            <gcse:search></gcse:search>
+                         </span>
+
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+
+    <div class="jumbotron text-center">
+        <!-- Wrapper for slides -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/photo-ucy1.jpg">
+                </div>
+                <div class="item">
+                    <img src="img/photo-ucy2.jpg">
+                </div>
+
+                <!--<div class="item ">-->
+                    <!--<img src="img/gbh1.jpg">-->
+                <!--</div>-->
+
+                <!--<div class="item">-->
+                    <!--<img src="img/gbh2.jpg">-->
+                <!--</div>-->
+
+
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>1<sup>oν</sup>ΑΝΟΙΚΤΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΤΙΣΦΑΙΡΙΣΗΣ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΚΥΠΡΟΥ – ΓΙΩΡΓΟΣ ΣΑΜΑΡΑΣ 2019</h1>
+            <!--<p class="lead">Το ΕΣΔΔ είναι το ετήσιο βήμα της ελληνικής διεθνούς κοινότητας βάσεων δεδομένων<br>για την-->
+                <!--παρουσίαση και συζήτηση των τελευταίων εξελίξεων στο πεδίο της διαχείρισης δεδομένων</p>-->
+            <div class="event-date">18-26 Μαΐου, 2019</div>
+
+            <li><a href="#section-venue"></a></li>
+
+            <a href="#section-venue" type="button" class="btn btn-success">ΤΟΠΟΣ</a>
+            <a href="#section-program" type="button" class="btn btn-warning">ΠΡΟΓΡΑΜΜΑ</a>
+            <!--<a href="#section-registration" type="button" class="btn btn-primary">ΕΓΓΡΑΦΗ</a>-->
+            <!--<a href="#section-accommodation" type="button" class="btn btn-danger">ΔΙΑΜΟΝΗ</a>-->
+            <a href="#section-booklet" type="button" class="btn btn-info">Ασφάλεια</a>
+
+            <a href="#section-photos" type="button" class="btn btn-danger">Φωτογραφίες</a>
+
+
+        </div>
+
+    </div>
+    <!-- .Jumbotron-->
+
+    <!--<section id="section-intro" class="section-wrapper about-event">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-8">-->
+                    <!--<p class="lead">-->
+                        <!--Το Πανεπιστήμιο Κύπρου διοργανώνει το «1ο Πρωτάθλημα Αντισφαίρισης Πανεπιστημίου Κύπρου –-->
+                        <!--Γιώργος Σαμάρας» εις μνήμην του αείμνηστου Καθηγητή του Πανεπιστημίου Γιώργου Σαμάρα στις εγκαταστάσεις-->
+                        <!--του Πανεπιστημίου Κύπρου-->
+                    <!--</p>-->
+                    <!--<p class="lead">-->
+                        <!--Το πρόγραμμα του ΕΣΔΔ 2018 θα περιλαμβάνει παρουσιάσεις ερευνητικών δημοσιεύσεων, επιδείξεις,-->
+                        <!--συζητήσεις στρογγυλής τραπέζης και ομιλίες. Το βασικό κριτήριο επιλογής των υποβολών θα είναι το-->
+                        <!--τεχνικό τους περιεχόμενο.-->
+                    <!--</p>-->
+                    <!--<p class="lead">-->
+                        <!--Το ΕΣΔΔ 2018 θα περιλαμβάνει τρία σκέλη υποβολών. Το πρώτο σκέλος θα περιλαμβάνει δημοσιεύσεις-->
+                        <!--(εκπαιδευτικές ομιλίες, επιδείξεις, συζητήσεις στρογγυλής τραπέζης), οι οποίες έχουν γίνει-->
+                        <!--πρόσφατα-->
+                        <!--αποδεκτές σε κορυφαία διεθνή συνέδρια στις περιοχές της διαχείρισης και εξόρυξης δεδομένων (η-->
+                        <!--ολοκληρωμένη λίστα συνεδρίων θα αναρτηθεί μαζί με την ειδοποίηση, αλλά περιλαμβάνει στο παρόν-->
+                        <!--στάδιο-->
+                        <!--τα SIGMOD, VLDB, PODS, ICDE, SIGIR, IEEE Big Data, VLDBJ, IEEE TKDE and IEEE TPDS). Το δεύτερο-->
+                        <!--σκέλος θα περιλαμβάνει πρωτότυπες εργασίες και αποδεκτές δημοσιεύσεις σε τόπους διεξαγωγής που-->
+                        <!--δεν-->
+                        <!--εμπίπτουν στο πρώτο σκέλος, οι οποίες θα παρουσιαστούν και θα συμπεριληφθούν στα ανεπίσημα-->
+                        <!--πρακτικά-->
+                        <!--του ΕΣΔΔ κατόπιν ομότιμης αξιολόγησης. Για το πρώτο και δεύτερο σκέλος δείτε το <a-->
+                            <!--target="_blank" href="hdms18-cfp.txt" class="popup">CFP</a>.-->
+                        <!--Το τρίτο σκέλος υποβολών θα περιλαμβάνει αναρτημένες ανακοινώσεις προπτυχιακών ή μεταπτυχιακών-->
+                        <!--φοιτητών (μέχρι το δεύτερο έτος σπουδών), στο οποίο οι φοιτητές μπορούν να προβάλουν τα-->
+                        <!--ερευνητικά-->
+                        <!--τους επιτεύγματα τα οποία σχετίζονται ευρύτερα με την περιοχή διαχείρισης δεδομένων. Για το-->
+                        <!--τρίτο-->
+                        <!--σκέλος δείτε το <a target="_blank" href="hdms18-poster-cfp.txt" class="popup">Poster CFP</a>.-->
+                    <!--</p>-->
+                    <!--<p class="lead">-->
+                        <!--Έπειτα από μια επιτυχημένη σειρά συμποσίων από το 2002, το 16ο Συμπόσιο θα διεξαχθεί στο Golden-->
+                        <!--Bay Beach Hotel στην Λάρνακα, Κύπρο (<a target="_blank" href="https://goldenbay.com.cy/">https://goldenbay.com.cy/</a>)-->
+                        <!--με μια ημι-ημερίδα στην-->
+                        <!--Πανεπιστημιούπολη του Πανεπιστημίου Κύπρου στην Λευκωσία, Κύπρο (<a target="_blank"-->
+                                                                                            <!--href="https://www.ucy.ac.cy/">https://www.ucy.ac.cy/</a>).-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="col-md-4" id="section-news">-->
+                    <!--<h2>News</h2>-->
+                    <!--<a class="twitter-timeline" data-height="700"-->
+                       <!--href="https://twitter.com/hdms2018?ref_src=twsrc%5Etfw">Tweets by-->
+                        <!--hdms2018</a>-->
+                    <!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+    <!-- .about-event -->
+
+
+    <!--<section id="section-dates" class="section-wrapper about-event">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="section-title">-->
+                    <!--<h1>Σημαντικές Hμερομηνίες</h1>-->
+                <!--</div>-->
+                <!--<div class="col-md-5 date-border">-->
+                    <!--<h2>Ερευνητικά άρθρα - Σεμινάρια - Επιδείξεις λογισμικού:</h2>-->
+                    <!--<strong>Προθεσμία υποβολής εργασιών:</strong>-->
+                    <!--<del>Παρασκευή 13 Απριλίου 2018</del>-->
+                    <!--Παρασκευή 27 Απριλίου 2018<br>-->
+
+                    <!--<strong>Γνωστοποίηση αποδοχής:</strong>-->
+                    <!--<del>Παρασκευή 11 Μαΐου 2018</del>-->
+                    <!--Παρασκευή 18 Μαΐου 2018<br>-->
+
+                    <!--<strong>Προθεσμία υποβολής τελικής έκδοσης:</strong> 1η Ιουνίου 2018<br>-->
+
+                    <!--<strong>Διεξαγωγή συμποσίου:</strong> 2-4 Ιουλίου 2018<br>-->
+
+                    <!--<div class="text-center">-->
+                        <!--<a href="hdms18-cfp.txt" target="_blank" type="button"-->
+                           <!--class="btn btn-success cfp-buttons popup">ΓΙΑ-->
+                            <!--ΕΡΕΥΝΗΤΕΣ</a>-->
+                    <!--</div>-->
+                    <!--<br>-->
+                <!--</div>-->
+                <!--<div class="col-md-2"></div>-->
+                <!--<div class="col-md-5 date-border">-->
+                    <!--<h2>Αναρτημένες Ανακοινώσεις:</h2>-->
+
+                    <!--<strong>Προθεσμία Υποβολής Περίληψης:</strong> Παρασκευή 18 Μαΐου 2018<br>-->
+
+                    <!--<strong>Γνωστοποίηση αποδοχής:</strong> Παρασκευή 1 Ιουνίου 2018<br>-->
+
+                    <!--<strong>Διεξαγωγή συμποσίου:</strong> 2-4 Ιουλίου 2018<br>-->
+                    <!--<br>-->
+                    <!--<div class="text-center">-->
+                        <!--<a href="hdms18-poster-cfp.txt" target="_blank" type="button"-->
+                           <!--class="btn btn-warning cfp-buttons popup">ΓΙΑ ΦΟΙΤΗΤΕΣ</a>-->
+
+                    <!--</div>-->
+                    <!--<br>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text-center">-->
+                <!--<a href="https://cmt3.research.microsoft.com/HDMS2018/" target="_blank"-->
+                   <!--class="btn btn-primary cfp-buttons">Υποβολή-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <section id="section-venue" class="section-wrapper yellow-bg">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="section-title">
+                        <h1>Τόπος Διεξαγωγής</h1>
+                    </div>
+                    <h3>Στις εγκαταστάσεις του Πανεπιστημίου Κύπρους</h3>
+                        <!--(<a href="https://goldenbay.com.cy/"-->
+                            <!--target="_blank">https://goldenbay.com.cy/</a>)</h3>-->
+                    <!--<p>-->
+                        <!--<strong>General Information</strong>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--The Golden Bay Beach Hotel is a luxurious 5 star hotel situated in the-->
+                        <!--favored south eastern region of Cyprus at the heart of the Bay of Larnaca.-->
+                        <!--The hotel is just outside the town of Larnaca, only 15 minutes from Larnaca-->
+                        <!--International Airport and 1 hour and 30 minutes from Paphos International-->
+                        <!--Airport.-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--<strong>Meeting Facilities</strong>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--The hotel features an area specially designed for conferences. This area-->
+                        <!--can be broken into smaller sections to suit guest needs. A hallway of-->
+                        <!--adjoining meeting rooms can be used separately or in combination, to-->
+                        <!--accommodate up to 300 delegates.-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--<strong>Accommodation</strong>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--The hotel has 193 rooms including Standard, Deluxe and Suites that overlook-->
+                        <!--the hotel swimming pool, sea or the city. All rooms include wireless-->
+                        <!--internet connection, bathrobes, slippers, safety deposit boxes, mini bars,-->
+                        <!--tea &amp; coffee making facilities, multi-channel TV with local, satellite-->
+                        <!--and Pay-TV channels, and balcony.-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--<strong>Food &amp; Beverage</strong>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--Within the Hotel there are 7 food and beverage outlets listed below:-->
+                    <!--</p>-->
+                    <!--<ul>-->
+                        <!--<li>-->
+                            <!--<strong>The Etoiles Restaurant</strong>-->
+                            <!--: Serves classic haute cuisine from France and Italy, with hints of the-->
+                            <!--Near East and the Orient.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>The outdoor Yacht Club</strong>-->
+                            <!--: Guests can enjoy the beautiful sea view and a menu of international-->
+                            <!--tastes.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>Thalassa Restaurant</strong>-->
+                            <!--: Offers a buffet of salads, meat, fish and pasta dishes and an-->
+                            <!--extensive vegetarian menu.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>Ouzeri Restaurant</strong>-->
+                            <!--: Serves Meze dishes of classic Cyprus and Byzantine cuisine, in a-->
+                            <!--Byzantine castle courtyard setting.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>Cocktail Bar</strong>-->
+                            <!--: The ideal place for casual meetings, with a great selection of-->
+                            <!--coffees, signature cocktails, and snacks.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>Shakespeare Pub</strong>-->
+                            <!--: A traditional English pub, with a selection of beers, cocktails and-->
+                            <!--quality food.-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<strong>The Pool Bar</strong>-->
+                            <!--: Features a wet bar area, and offers relaxing meals, fresh fruit-->
+                            <!--juices, waffles, crepes and cocktails.-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                    <!--<p>-->
+                        <!--<strong>General Facilities</strong>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                        <!--The Hotel features a Leisure club with a complete range of workout and-->
+                        <!--leisure facilities, including gym, aerobics, indoor and outdoor pool,-->
+                        <!--sauna, steam bath, hairdressing salon, beach, water sports, mini club and-->
+                        <!--tennis court.-->
+                    <!--</p>-->
+                </div>
+                <div class="col-md-6 text-center">
+                    <!--<iframe src=https://anyplace.cs.ucy.ac.cy/viewer/?buid=building_c0cfac36-4389-4c57-bd19-aca0e1232fd2_1438966158411&floor=0&selected=poi_469cf97f-1a40-4b30-b2cc-c0ed78b4d9a4"-->
+                            <!--width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+             <!---->
+                    <iframe width="100%" height="450" frameborder="0" scrolling="yes"   src="https://anyplace.cs.ucy.ac.cy/viewer/?buid=building_c0cfac36-4389-4c57-bd19-aca0e1232fd2_1438966158411&floor=0&selected=poi_469cf97f-1a40-4b30-b2cc-c0ed78b4d9a4"></iframe>
+
+
+                </div>
+
+
+                <!--<ul class="gallery">-->
+
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden1.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden2.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden3.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden4.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden5.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden6.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden7.jpg"></li>-->
+                    <!--<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 gallery">-->
+                        <!--<img class="gallery img-responsive" src="img/gallery/Venue/golden8.jpg"></li>-->
+                <!--</ul>-->
+                <!--<div class="gallery modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"-->
+                     <!--aria-hidden="true">-->
+                    <!--<div class="gallery modal-dialog">-->
+                        <!--<div class="gallery modal-content">-->
+                            <!--<div class="gallery modal-body"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="container  text-center">-->
+                    <!--<div class="col-md-6 btn-group-vertical">-->
+
+                        <!--<a href="travel.en.html" target="_blank" type="button" class="btn btn-success popup">Travel-->
+                            <!--Information</a>-->
+                        <!--<br>-->
+                        <!--<a href="cyprus.en.html" target="_blank" type="button" class="btn btn-primary popup">About-->
+                            <!--Cyprus</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+            <!-- /.row-->
+
+            <!-- .row-->
+        </div>
+    </section>
+
+    <section id="section-program" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Δομή Προγράμματος <a type="button" href="program.el.html"
+                                                 class="pull-right popup fa fa-print"></a><a class="pull-right"
+                                                                                             type="button"
+                                                                                             href="#d1,#d2,#d3,#d4,#d5,#d6,#d7"
+                                                                                             data-target="#d1,#d2,#d3,#d4,#d5,#d6,#d7"
+                                                                                             data-toggle="collapse"><span
+                                class="fa fa-caret-square-o-down"></span></a></h1>
+                    </div>
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Οι αγώνες τις καθημερινές<a class="pull-right"
+                                                                                                 type="button"
+                                                                                                 href="#d1,#d2"
+                                                                                                 data-target="#d1,#d2"
+                                                                                                 data-toggle="collapse"><span
+                                    class="fa fa-caret-square-o-down"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <!--<td>15:00</td>-->
+                            <td> θα αρχίζουν στις 3:00 μ.μ. και οι τελευταίοι αγώνες θα είναι
+                                προγραμματισμένοι για να αρχίζουν γύρω στις 8.00 μ.μ </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Οι αγώνες τα Σαββατοκύριακα
+                                <a class="pull-right" type="button" href="#d3,#d4,#d5,#d6,#d7" data-target="#d3,#d4,#d5"
+                                   data-toggle="collapse"><span class="fa fa-caret-square-o-down"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Θα αρχίζουν στις 8:00 π.μ.</td>
+                            <!--<td>-->
+                                <!--<a data-toggle="collapse" href="#d1" data-target="#ds">Σεμινάριο-->
+                                    <!--<span class="fa fa-caret-down"></span>-->
+                                <!--</a>-->
+                                <!--<div class="collapse" id="ds">-->
+                                    <!--<p> Σεμινάριο: Επιστήμη Δεδομένων για Διασυνδεδεμένα Γεωχωρικά Δεδομένα-->
+                                        <!--και Δεδομένα Τηλεπισκόπησης</p>-->
+                                    <!--<p> Κωνσταντίνα Μπερέτα (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Μανόλης-->
+                                        <!--Κουμπαράκης (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Stefan-->
+                                        <!--Manegold (Centrum Wiskunde & Informatica), Χαράλαμπος Νικολάου (University-->
+                                        <!--of Oxford), Γιώργος Σταμούλης (Εθνικό και Καποδιστριακό Πανεπιστήμιο-->
+                                        <!--Αθηνών))</p>-->
+                                <!--</div>-->
+                            <!--</td>-->
+
+
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Οι τελευταίοι αγώνες
+                                <a class="pull-right" type="button"
+                                   href="#d6,#d7"
+                                   data-target="#d6,#d7"
+                                   data-toggle="collapse"><span
+                                        class="fa fa-caret-square-o-down"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Θα είναι προγραμματισμένοι να αρχίζουν στις 7:00 μ.μ.</td>
+
+                        </tbody>
+                    </table>
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Λεπτομέρειες<a class="pull-right"
+                                                                        type="button"
+                                                                        href="#d1,#d2"
+                                                                        data-target="#d1,#d2"
+                                                                        data-toggle="collapse"><span
+                                    class="fa fa-caret-square-o-down"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+
+
+                        <tr>
+                            <!--<td>15:00</td>-->
+                            <td> Η κλήρωση των αγώνων θα γίνει την Τετάρτη 15 Μαΐου 2019 και θα αναρτηθεί στην ιστοσελίδα μαζί με
+                                το πρόγραμμα των αγώνων.
+                                Το πρόγραμμα των αγώνων θα ανανεώνεται στο τέλος κάθε αγωνιστικής μέρας, σύμφωνα με τα αποτελέσματα
+                                που θα προκύπτουν από τους αγώνες που θα διεξάγονται.</td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <tr>
+                        <td>Είναι υποχρέωση των διαγωνιζομένων να ενημερώνονται για το πρόγραμμα των αγώνων. <strong>Δεν θα γίνεται
+                            οποιαδήποτε τηλεφωνική ενημέρωση σχετικά με το πρόγραμμα των αγώνων και κάθε διαγωνιζόμενος οφείλει
+                            να ενημερώνεται από την ιστοσελίδα σχετικά με την ημέρα που αγωνιστεί.</strong></td>
+                        </tr>
+                        <!--<td> Οι τελευταίοι αγώνες θα είναι προγραμματισμένοι </td>-->
+                        </tr>
+                        <tr>
+                        <td>Αν κάποιος έχει πρόβλημα σε κάποια συγκεκριμένη μέρα θα πρέπει να το αναφέρει στην αίτηση του
+                            πριν την έναρξη του Πρωταθλήματος και στο σημείο<strong> ΠΑΡΑΤΗΡΗΣΕΙΣ</strong>, ούτως ώστε ο οργανωτής να μπορεί να προγραμματίσει
+                            έγκαιρα τους αγώνες του πρωταθλήματος.
+                            <strong>
+                                Παρακλήσεις για αλλαγή στο πρόγραμμα πρέπει να αποφεύγονται, για την ομαλή   διεξαγωγή του πρωταθλήματος.
+                            </strong></td>
+                        <!--<td> Εναρκτήρια συνεδρία και χαιρετισμός του Πρύτανη του Πανεπιστήμιο Κύπρου</td>-->
+                        </tr>
+
+                        <tr>
+
+                            <td>Οι αντισφαιριστές/στριες οφείλουν να προσέρχονται στην καθορισμένη ώρα που αναφέρεται στο
+                            πρόγραμμα αγώνων. Αντισφαιριστής ο οποίος για οποιοδήποτε λόγο δεν θα παρουσιαστεί στον αγώνα οφείλει
+                            να ειδοποιήσει έγκαιρα τον υπεύθυνο πρωταθλήματος, ο οποίος με τη σειρά του θα ειδοποιεί τον αντίπαλο
+                            αντισφαιριστή για τη μη διεξαγωγή του αγώνα, και θα χάνει το αγώνα. Κανένας αγώνας δέν αναβάλλεται ή
+                            μετατίθεται.</td>
+                        <!--<td> Εναρκτήρια συνεδρία και χαιρετισμός του Πρύτανη του Πανεπιστήμιο Κύπρου</td>-->
+                        </tr>
+                        <!--<tr>-->
+                        <!--<td>15:30</td>-->
+                        <!--<td>-->
+                        <!--<a data-toggle="collapse" href="#d1" data-target="#d1"> Εναρκτήρια Ομιλία-->
+                        <!--<span class="fa fa-caret-down"></span>-->
+                        <!--</a>-->
+                        <!--<div class="collapse" id="d1">-->
+                        <!--<p>Ομιλητής: Γιάννης Ιωαννίδης (Πανεπιστήμιο Αθηνών και Ερευνητικό Κέντρο-->
+                        <!--"Αθηνά")</p>-->
+                        <!--<p>Εναρκτήρια Ομιλία: Πώς να κερδίσει η Αθηνά το μήλο!<br>(Σκέψεις εκτός έδρας, απ'-->
+                        <!--το-->
+                        <!--νησί της Αφροδίτης)</p>-->
+                        <!--<p>Περίληψη: Στη ζωή της έρευνας, υπάρχουν πολλά μήλα προς διεκδίκηση στο δρόμο για-->
+                        <!--τον τίτλο-->
+                        <!--"της καλλίστης", στο δρόμο για την αριστεία. Τα μήλα αυτά είναι ατομικά αλλά και-->
+                        <!--ομαδικά, π.χ., για ερευνητικούς οργανισμούς ή επιστημονικές κοινότητες. Στην-->
+                        <!--ομιλία αυτή θα εκφράσω σκέψεις και προβληματισμούς για τις προκλήσεις και τις-->
+                        <!--ευκαιρίες, τα εργαλεία και τις παγίδες, που αντιμετωπίζουν στο δρόμο προς τα-->
+                        <!--αντίστοιχα μήλα αριστείας τρεις διαφορετικές οντότητες: το Ερευνητικό Κέντρο-->
+                        <!--"Αθηνά", η επιστημονική κοινότητα της Διαχείρισης Δεδομένων στο πλαίσιο του-->
+                        <!--συνολικότερου χώρου της Πληροφορικής, και εγώ προσωπικά. Η περιήγηση αυτή θα-->
+                        <!--δώσει την ευκαιρία να αναφερθώ και σε κάποια ενδιαφέροντα τεχνικά προβλήματα και-->
+                        <!--αποτελέσματα.</p>-->
+                        <!--<p>-->
+                        <!--Βιογραφικό Ομιλητή: Ο Γιάννης Ιωαννίδης είναι Πρόεδρος και Γενικός Διευθυντής-->
+                        <!--του Ερευνητικού-->
+                        <!--Κέντρου «Αθηνά» καθώς επίσης και Καθηγητής στο Τμήμα Πληροφορικής και-->
+                        <!--Τηλεπικοινωνιών του Πανεπιστημίου Αθηνών. Κατέχει πτυχίο από τη Σχολή-->
+                        <!--Ηλεκτρολόγων Μηχανικών του Εθνικού Μετσόβιου Πολυτεχνείου, MSc στα Εφαρμοσμένα-->
+                        <!--Μαθηματικά από το Πανεπιστήμιο του Χάρβαρντ και διδακτορικό τίτλο σπουδών στην-->
+                        <!--Επιστήμη των Υπολογιστών από το Πανεπιστήμιο της Καλιφόρνιας στο Μπέρκλεϋ. Τα-->
+                        <!--ερευνητικά ενδιαφέροντά του περιλαμβάνουν βάσεις δεδομένων και πληροφοριακά-->
+                        <!--συστήματα, αναλυτική δεδομένων και κειμένων, συστήματα συστάσεων και-->
+                        <!--εξατομίκευση, επιστήμη δεδομένων, υποδομές δεδομένων και ψηφιακά αποθετήρια, και-->
+                        <!--κλιμακώσιμη επεξεργασία δεδομένων, θέματα στα οποία έχει δημοσιεύσει περισσότερα-->
+                        <!--από 150 άρθρα σε κορυφαία περιοδικά και συνέδρια. Το έργο του εφαρμόζεται σε-->
+                        <!--προβλήματα διαχείρισης δεδομένων που ανακύπτουν στο χώρο της βιομηχανίας ή σε-->
+                        <!--άλλα επιστημονικά πεδία, όπως οι επιστήμες ζωής, οι φυσικές επιστήμες, η-->
+                        <!--βιοποικιλότητα και η πολιτιστική κληρονομιά. Είναι συντονιστής όλων των μέχρι-->
+                        <!--τώρα έργων της ευρωπαϊκής υποδομής OpenAIRE, και έχει συμμετάσχει ως εταίρος σε-->
+                        <!--πολλά άλλα έργα έρευνας και καινοτομίας, όπως τα ενεργά έργα EMOTIVE,-->
+                        <!--Wholodance, DARE, και το Human Brain Project. Ο κος Ιωαννίδης είναι Fellow των-->
+                        <!--επιστημονικών οργανώσεων ACM και IEEE, είναι μέλος της Academia Europaea, ενώ-->
+                        <!--του έχουν απονεμηθεί πολλά ερευνητικά και διδακτικά βραβεία. Είναι ο εθνικός-->
+                        <!--εκπρόσωπος της Ελλάδας στο Φόρουμ Ευρωπαϊκής Στρατηγικής για τις Ερευνητικές-->
+                        <!--Υποδομές (European Strategy Forum on Research Infrastructures - ESFRI), μέλος-->
+                        <!--του ESFRI Executive Board, και εκπρόσωπος του ESFRI στην Ομάδα Προβληματισμού-->
+                        <!--για τις Ηλεκτρονικές Υποδομές (e-Infrastructures Reflection Group - e-IRG). Έχει-->
+                        <!--επίσης εκλεγεί Γραμματέας/Ταμίας της ACM και υπηρετεί 2ετή θητεία από 1 Ιουλίου-->
+                        <!--2018.-->
+                        <!--</p>-->
+                        <!--</div>-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>16:30</td>-->
+                        <!--<td> Διάλειμμα για Καφέ και Συζήτηση</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>17:00</td>-->
+                        <!--<td>-->
+                        <!--<a data-toggle="collapse" href="#d2" data-target="#d2">Επιδείξεις Λογισμικού &-->
+                        <!--Αναρτημένων Ανακοινώσεων-->
+                        <!--<span class="fa fa-caret-down"></span>-->
+                        <!--</a>-->
+                        <!--<div class="collapse" id="d2">-->
+                        <!--<table class="table table-bordered table-striped  bg-info">-->
+                        <!--<thead>-->
+                        <!--<tr>-->
+                        <!--<th>ID</th>-->
+                        <!--<th>Title</th>-->
+                        <!--<th>Authors</th>-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<tr>-->
+                        <!--<td>8</td>-->
+                        <!--<td><a href="papers/08.pdf">TBD-DP: Ανάλυση Μεγάλων Τηλεπικοινωνιακών-->
+                        <!--Δεδομένων με Eπίρρηση-->
+                        <!--Δεδομένων</a></td>-->
+                        <!--<td>Κωνσταντίνος Κώστα* (Πανεπιστήμιο Κύπρου), Ανδρέας Χαραλάμπους-->
+                        <!--(Πανεπιστήμιο-->
+                        <!--Κύπρου), Ανδρέας Κωνσταντινίδης (Πανεπιστήμιο Κύπρου και Πανεπιστήμιο-->
+                        <!--Frederick),-->
+                        <!--Δημήτρης Ζεϊναλιπούρ (Πανεπιστήμιο Κύπρου), Mohamed F. Mokbel (Qatar-->
+                        <!--Computing Research Institute, HBKU and University of Minnesota)-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>-->
+                        <!--9-->
+                        <!--</td>-->
+                        <!--<td><a href="papers/09.pdf">FMS: Διαχείριση Σημάτων Εσωτερικών Χώρων με το-->
+                        <!--Περιβάλλον-->
+                        <!--Διαχείρισης Ψηφιακών Αποτυπωμάτων</a>-->
+                        <!--</td>-->
+                        <!--<td>Mαριλένη Αγγελίδου (Πανεπιστήμιο Κύπρου), Κωνσταντίνος Κώστα*-->
+                        <!--(Πανεπιστήμιο-->
+                        <!--Κύπρου), Artyom Nikitin (Skoltech), Δημήτρης Ζεϊναλιπούρ (Πανεπιστήμιο-->
+                        <!--Κύπρου)-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>-->
+                        <!--12-->
+                        <!--</td>-->
+                        <!--<td><a href="papers/12.pdf">EPUI: Πειραματική Πλατφόρμα Αστικής-->
+                        <!--Πληροφορικής</a></td>-->
+                        <!--<td>Xiaoyu Ge* (University of Pittsburgh), Πάνος K. Χρυσάνθης (University of-->
+                        <!--Pittsburgh), Κωνσταντίνος Πελεχρίνης (University of Pittsburgh),-->
+                        <!--Δημήτρης-->
+                        <!--Ζεϊναλιπούρ (Πανεπιστήμιο Κύπρου)-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>-->
+                        <!--17-->
+                        <!--</td>-->
+                        <!--<td><a href="papers/17.pdf">Δημιουργία Εικονικών Σημασιολογικών Γράφων πάνω-->
+                        <!--από Δεδομένα-->
+                        <!--Τηλεπισκόπισης</a></td>-->
+                        <!--<td>Κωνσταντίνα Μπερέτα* (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών),-->
+                        <!--Μανόλης-->
+                        <!--Κουμπαράκης (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών)-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>-->
+                        <!--22-->
+                        <!--</td>-->
+                        <!--<td><a href="papers/22.pdf">Pub Finder: Αναζήτηση Ποιοτικών Επιστημονικών-->
+                        <!--Δημοσιεύσεων</a></td>-->
+                        <!--<td>-->
+                        <!--Θανάσης Βεργούλης* (Ερευνητικό Κέντρο «Αθηνά»), Ηλίας Κανέλλος (Εθνικό-->
+                        <!--Μετσόβιο Πολυτεχνείο και Ερευνητικό Κέντρο «Αθηνά»), Σεραφείμ-->
+                        <!--Χατζόπουλος-->
+                        <!--(Πανεπιστήμιο Πελοποννήσου και Εθνικό Μετσόβιο Πολυτεχνείο και-->
+                        <!--Ερευνητικό-->
+                        <!--Κέντρο «Αθηνά»), Χρήστος Τρυφωνόπολους (Πανεπιστήμιο Πελοποννήσου),-->
+                        <!--Θεόδωρος Δαλαμάγκας (Ερευνητικό Κέντρο «Αθηνά»), Ιωάννης Βασιλείου-->
+                        <!--(Εθνικό-->
+                        <!--Μετσόβιο Πολυτεχνείο)-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>-->
+                        <!--28-->
+                        <!--</td>-->
+                        <!--<td><a href="papers/28.pdf">Amnesia: Ένα ευέλικτο Εργαλείο Ανωνυμοποίησης-->
+                        <!--Δεδομένων</a></td>-->
+                        <!--<td>Δημήτρης Τσιτσίγκος* (Ερευνητικό Κέντρο "Αθηνά"), Μανώλης Τερροβίτης-->
+                        <!--(Ερευνητικό Κέντρο "Αθηνά")-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--</tbody>-->
+                        <!--</table>-->
+                        <!--<table class="table table-bordered table-striped  bg-info">-->
+                        <!--<thead>-->
+                        <!--<tr>-->
+                        <!--<th>Title</th>-->
+                        <!--<th>Student</th>-->
+                        <!--<th>Supervisor</th>-->
+                        <!--<th>Affiliation</th>-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<tr>-->
+                        <!--<td>Αποτελεσματική διερευνητική ανάλυση και διαχείριση μεγάλων δεδομένων-->
+                        <!--από ψηφιακά αποτυπώματα ασύρματων δικτύων Wi-Fi-->
+                        <!--</td>-->
+                        <!--<td>Μαριλένη Αγγελίδου</td>-->
+                        <!--<td>Δημήτρης Ζεϊναλιπούρ</td>-->
+                        <!--<td>Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Πειραματική αποτίμηση πλαισίου για Αμνησία Μεγάλων Τηλεπικοινωνιακών-->
+                        <!--Δεδομένων-->
+                        <!--</td>-->
+                        <!--<td>Ανδρέας Χαραλάμπους</td>-->
+                        <!--<td>Δημήτρης Ζεϊναλιπούρ</td>-->
+                        <!--<td>Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Πλατφόρμα Διαχείρισης και Επεξεργασίας Δεδομένων από Μελέτες-->
+                        <!--Περιβάλλοντος και Υγείας-->
+                        <!--</td>-->
+                        <!--<td>Χριστόδουλος Χάγιαννης</td>-->
+                        <!--<td>Ηρόδοτος Ηροδότου</td>-->
+                        <!--<td>Τεχνολογικό Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Διερεύνηση της εξέλιξης των κοινωνικών δικτύων για διαφορετικές-->
+                        <!--κατηγορίες χρηστών-->
+                        <!--</td>-->
+                        <!--<td>Κλειώ Αντωνίου</td>-->
+                        <!--<td>Δημήτρης Αντωνιάδης</td>-->
+                        <!--<td>Ανοικτό Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Πλατφόρμα Διασύνδεσης Ετερογενών IoT Συσκευών</td>-->
+                        <!--<td>Χαράλαμπος Κόζης</td>-->
+                        <!--<td>Ηρόδοτος Ηροδότου</td>-->
+                        <!--<td>Τεχνολογικό Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Παρακολούθηση πλοίων σε πραγματικό χρόνο χρησιμοποιώντας δεδομένα AIS-->
+                        <!--</td>-->
+                        <!--<td>Θεόφιλος Ονησιφόρου</td>-->
+                        <!--<td>Μιχάλης Μιχαηλίδης</td>-->
+                        <!--<td>Τεχνολογικό Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Η Κοινωνικοτεχνική Προσέγγιση των Χιουμοριστικών Μηνυμάτων με Πολιτικό-->
+                        <!--Περιεχόμενο. Ανάλυση Δημοσιεύσεων των Ελλήνων Χρηστών στο Twitter.-->
+                        <!--</td>-->
+                        <!--<td>Νικόλαος Ρούσκας</td>-->
+                        <!--<td>Τζάνα Οττερμπάχερ</td>-->
+                        <!--<td>Ανοικτό Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Εύρεση μοτίβων ροής σε σύνθετα δίκτυα</td>-->
+                        <!--<td>Χρυσάνθη Κοσυφάκη</td>-->
+                        <!--<td>Νίκος Μαμουλής</td>-->
+                        <!--<td>Πανεπιστήμιο Ιωαννίνων</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Αξιοποίηση Τεχνολογιών Blockchain στον Ασφαλιστικό Τομέα-->
+                        <!--</td>-->
+                        <!--<td>Μάριος Κελεπέσιης</td>-->
+                        <!--<td>Δημήτρης Ζεϊναλιπούρ</td>-->
+                        <!--<td>Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>Πρόβλεψη Εγκεφαλικού Επεισοδίου (ή Όχι) Χρησιμοποιώντας τη Μέθοδο-->
+                        <!--RuleFit και το Έμπειρο Σύστημα Gorgias-B-->
+                        <!--</td>-->
+                        <!--<td>Νικολέττα Πρέντζα</td>-->
+                        <!--<td>Κωνσταντίνος Παττίχης και Αντώνης Κάκας</td>-->
+                        <!--<td>Πανεπιστήμιο Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--</tbody>-->
+                        <!--</table>-->
+                        <!--</div>-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>18:30</td>-->
+                        <!--<td> Περιήγηση στους Χώρους του Πανεπιστημίου Κύπρου</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>19:00</td>-->
+                        <!--<td> Περιήγηση της Λευκωσίας και Δείπνο Συμποσίου στη Παλιά Λευκωσία-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td>22:30</td>-->
+                        <!--<td> Επιστροφή στη Λάρνακα</td>-->
+                        <!--</tr>-->
+
+
+
+
+
+
+                        </tbody>
+                    </table>
+
+
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Η τελετή βράβευσης
+                                <a class="pull-right" type="button" href="#d3,#d4,#d5,#d6,#d7" data-target="#d3,#d4,#d5"
+                                   data-toggle="collapse"><span class="fa fa-caret-square-o-down"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Θ Η τελετή βράβευσης θα γίνει την Κυριακή 26 Μαίου, όπου στον/στην πρώτο/η και δεύτερο/η νικητή/τρια
+                                κάθε κατηγορίας θα απονεμηθούν κύπελλα.
+                            </td>
+
+
+                            <td>
+                            <a data-toggle="collapse" href="#d1" data-target="#ds">Σεμινάριο
+                            <span class="fa fa-caret-down"></span>
+                            </a>
+                            <div class="collapse" id="ds">
+                            <p> Σεμινάριο: Επιστήμη Δεδομένων για Διασυνδεδεμένα Γεωχωρικά Δεδομένα
+                            και Δεδομένα Τηλεπισκόπησης</p>
+                            <p> Κωνσταντίνα Μπερέτα (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Μανόλης
+                            Κουμπαράκης (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Stefan
+                            Manegold (Centrum Wiskunde & Informatica), Χαράλαμπος Νικολάου (University
+                            of Oxford), Γιώργος Σταμούλης (Εθνικό και Καποδιστριακό Πανεπιστήμιο
+                            Αθηνών))</p>
+                            </div>
+                            </td>
+
+
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- /.row-->
+    </section>
+
+    <section id="section-registration" class="section-wrapper yellow-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Εγγραφή</h1>
+                    </div>
+
+                    <p><b>Δικαίωμα συμμετοχής ανα άτομο:</b></p>
+                    <table class="table table-bordered table-striped  bg-info">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th style="color: #F44242">Πριν απο τις 14 Μαΐου 2019</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Σε μία μόνο κατηγορία</td>
+                            <td>€10</td>
+
+                        </tr>
+                        <tr>
+                            <td>Σε δύο κατηγορίες</td>
+                            <td>€15</td>
+
+                        </tr>
+                        <tr>
+                            <td>Σε τρείς κατηγορίες</td>
+                            <td>€20</td>
+
+                        </tr>
+                        <tr>
+                            <td>Σε τέσσερις κατηγορίες</td>
+                            <td>€25</td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+                    <strong style="color: #F44242"> Σημείωση:</strong>
+
+                    <p> Στην κάθε κατηγορία μπορεί να λάβει  μέρος οποιοδήποτε
+                        άτομο το επιθυμεί το οποίο την τελευταία ημερομηνία υποβολής των αιτήσεων, δε βρίσκεται στους δεκαέξι <strong>(16) </strong>πρώτους
+                        (για τα αγόρια και τους άντρες) και στις πρώτες οκτώ <strong>(8)</strong> πρώτες (για τα κορίτσια και γυναίκες) της αντίστοιχης κατηγορίας
+                        της επίσημης Παγκύπριας κατάταξης της Ομοσπονδίας Αντισφαίρισης Κύπρου (ΟΑΚ).</p>
+
+                    <div class="col-md-12 text-center">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOBd4ppIhfVMcCSUPtAE1_6___onTwqqpnTcf1qffOY0R4FA/viewform?usp=sf_link" target="_blank"
+                           class="btn btn-primary">Εγγραφή</a>
+                        <!--<p><b class="text-danger">Online registration is now closed.</b></p>-->
+                        <p>[Μέσω του πιο πάνω συνδέσμου θα μπορέσετε να εγγραφείτε στο  <strong> ΠΡΩΤΑΘΛΗΜΑ </strong>.
+
+                            Η επικύρωση της συμμέτοχης στην κλήρωση του πρωταθλήματος θα γίνει από τους διοργανωτές μέχρι την Πέμπτη 16 Μαΐου 2019.
+                            Η καταβολή του αντίστοιχου αντιτίμου θα γίνει στο χώρο διεξαγωγής του Πρωταθλήματος κατά την μέρα διεξαγωγής του.
+                            ]
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row-->
+    </section>
+
+    <section id="section-age" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Ηλικιες διαγωνιζομενων</h1>
+                    </div>
+                    <!--<div class="col-md-6">-->
+                        <!--<table class="table table-bordered table-striped bg-info">-->
+                            <!--<thead>-->
+                            <!--<tr>-->
+                                <!--<th></th>-->
+                                <!--<th>Single room</th>-->
+                                <!--<th>Double room</th>-->
+                            <!--</tr>-->
+                            <!--</thead>-->
+                            <!--<tbody>-->
+                            <!--<tr>-->
+                                <!--<td><a href="conference_map/hotels/golden.txt" class="popup">Golden Bay Hotel</a></td>-->
+                                <!--<td>€155</td>-->
+                                <!--<td>€166</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td><a href="conference_map/hotels/lebay.txt" class="popup">Lebay beach hotel</a></td>-->
+                                <!--<td>€82</td>-->
+                                <!--<td>€114</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td><a href="conference_map/hotels/flamingo.txt" class="popup">Flamingo Beach Hotel</a>-->
+                                <!--</td>-->
+                                <!--<td>€80</td>-->
+                                <!--<td>€94</td>-->
+                            <!--</tr>-->
+
+                            <!--</tbody>-->
+                        <!--</table>-->
+                        <!--<table class="table table-bordered table-striped bg-warning">-->
+                            <!--<thead>-->
+                            <!--<tr>-->
+                                <!--<th>Venue</th>-->
+                                <!--<th>Accommodation</th>-->
+                            <!--</tr>-->
+                            <!--</thead>-->
+                            <!--<tbody>-->
+                            <!--<tr>-->
+                                <!--<td>-->
+                                    <!--<ul id="venue_side_bar" class="list-group"></ul>-->
+                                <!--</td>-->
+                                <!--<td>-->
+                                    <!--<ul id="hotel_side_bar" class="list-group"></ul>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+
+                        <!--</table>-->
+                        <!--<table class="table table-bordered table-striped bg-warning">-->
+                            <!--<thead>-->
+                            <!--<tr>-->
+                                <!--<th>Airports</th>-->
+                                <!--<th>Bus Stops</th>-->
+                            <!--</tr>-->
+                            <!--</thead>-->
+                            <!--<tbody>-->
+                            <!--<tr>-->
+                                <!--<td>-->
+                                    <!--<ul id="airport_side_bar" class="list-group"></ul>-->
+                                <!--</td>-->
+                                <!--<td>-->
+                                    <!--<ul id="bus_side_bar" class="list-group"></ul>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+
+                        <!--</table>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6">-->
+                        <!--<iframe id="map_control" src="./conference_map/hdms2018.html" width="100%" height="450"-->
+                                <!--frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    <!--</div>-->
+                    <div class="col-md-12 ">
+                        <!--<a href="http://www.easyconferences.org/hdms2018/register" target="_blank"-->
+                           <!--class="btn btn-primary">Book Now</a>-->
+                        <!--<p><b class="text-danger">Online registration is now closed.</b></p>-->
+                        <!--<p></p>-->
+                        <!--<p>[Μέσω του πιο πάνω συνδέσμου θα μπορέσετε να εγγραφείτε στο συμπόσιο, να κλείσετε δωμάτιο σε-->
+                            <!--ξενοδοχείο, να διευθετήσετε την μεταφορά σας προς/απο το αεροδρόμιο (taxi και ενοικίαση-->
+                            <!--οχήματος), να αγοράσετε επιπλέον εισιτήρια για το dinner]</p>-->
+
+
+
+
+                        <ul>
+                            <li>
+                                Αγοριών/Κοριτσιών κάτω των 12 (όσοι και όσες γεννήθηκαν το 2007 ή αργότερα)
+
+                            </li>
+                            <li>
+                                Αγοριών/Κοριτσιών κάτω των 14 (όσοι και όσες γεννήθηκαν γεννήθηκαν το 2005 ή αργότερα)
+
+                            </li>
+                            <li>
+                                Αγοριών/Κοριτσιών κάτω των 16 (όσοι και όσες γεννήθηκαν γεννήθηκαν το 2003 ή αργότερα)
+
+                            </li>
+
+                            <li>
+                                Ανδρών (χωρίς όριο ηλικίας)
+                            </li>
+
+                            <li>
+                                Ανδρών +35 ( όσοι γεννήθηκαν το 1984 ή νωρίτερα)
+                            </li>
+
+                            <li>
+                                Ανδρών +45 ( όσοι γεννήθηκαν το 1974 ή νωρίτερα)
+                            </li>
+
+
+                            <li>
+                                Ανδρών +55 ( όσοι γεννήθηκαν το 1964 ή νωρίτερα)
+                            </li>
+
+                            <li>
+                                Ανδρών +65 ( όσοι γεννήθηκαν το 1954 ή νωρίτερα)
+                            </li>
+
+                            <li>
+                                Γυναικών (χωρίς όριο ηλικίας)
+                            </li>
+
+                            <li>
+                                Γυναικών +35 (όσες γεννήθηκαν το 1984 ή νωρίτερα)
+                            </li>
+                            <li>
+                                Γυναικών +45 (όσες γεννήθηκαν το 1974 ή νωρίτερα)
+                            </li>
+
+                            <li>
+                                Διπλό ανδρών, γυναικών και μικτό ( όσοι/ες γεννήθηκαν το 2005 ή νωρίτερα)
+                            </li>
+
+                            <li>
+                                Διπλό οικογενειακό (χωρίς περιορισμό στην ηλικία, με μόνη προϋπόθεση τη
+                                συγγένεια μεταξύ των παικτών/τριών της κάθε ομάδας)
+                            </li>
+
+
+
+
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+<section id="section-topics" class="section-wrapper about-event yellow-bg">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Κανονισμοί</h1>
+                </div>
+                <ul >
+
+                    <li>
+                        Όλοι οι αγώνες (μονά και διπλά) θα διεξάγονται με το σύστημα tie break sets,
+                        δηλαδή στα δύο πρώτα set  όταν το σκόρ είναι 6-6 θα διεξάγεται tie break μέχρι
+                        τους 7 πόντους. Σε περίπτωση που ο αγώνας είναι 1-1 set θα διεξάγεται match tie break δηλαδή
+                        tie break μέχρι τους 10 πόντους.
+                    </li>
+                    <li>
+                        Επίσης, όλοι οι αγώνες θα διεξάγονται με το σύστημα NO AD ( No Advantage), χωρίς πλεονέκτημα, δηλαδή
+                        όταν το σκορ είναι 40-40 (deuce) ο/η παίκτης/παίκτρια που υποδέχεται το service επιλέγει την πλευρά
+                        του γηπέδου που θέλει να υποδεχθεί το service και όποιος/α κερδίσει τον πόντο κερδίζει και το game
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+        <!-- /.row-->
+
+
+
+
+    <section id="section-accommodation" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Κατηγορίες</h1>
+                    </div>
+                    <!--<div class="col-md-6">-->
+                    <!--<table class="table table-bordered table-striped bg-info">-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                    <!--<th></th>-->
+                    <!--<th>Single room</th>-->
+                    <!--<th>Double room</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+                    <!--<tbody>-->
+                    <!--<tr>-->
+                    <!--<td><a href="conference_map/hotels/golden.txt" class="popup">Golden Bay Hotel</a></td>-->
+                    <!--<td>€155</td>-->
+                    <!--<td>€166</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                    <!--<td><a href="conference_map/hotels/lebay.txt" class="popup">Lebay beach hotel</a></td>-->
+                    <!--<td>€82</td>-->
+                    <!--<td>€114</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                    <!--<td><a href="conference_map/hotels/flamingo.txt" class="popup">Flamingo Beach Hotel</a>-->
+                    <!--</td>-->
+                    <!--<td>€80</td>-->
+                    <!--<td>€94</td>-->
+                    <!--</tr>-->
+
+                    <!--</tbody>-->
+                    <!--</table>-->
+                    <!--<table class="table table-bordered table-striped bg-warning">-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                    <!--<th>Venue</th>-->
+                    <!--<th>Accommodation</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+                    <!--<tbody>-->
+                    <!--<tr>-->
+                    <!--<td>-->
+                    <!--<ul id="venue_side_bar" class="list-group"></ul>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                    <!--<ul id="hotel_side_bar" class="list-group"></ul>-->
+                    <!--</td>-->
+                    <!--</tr>-->
+
+                    <!--</table>-->
+                    <!--<table class="table table-bordered table-striped bg-warning">-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                    <!--<th>Airports</th>-->
+                    <!--<th>Bus Stops</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+                    <!--<tbody>-->
+                    <!--<tr>-->
+                    <!--<td>-->
+                    <!--<ul id="airport_side_bar" class="list-group"></ul>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                    <!--<ul id="bus_side_bar" class="list-group"></ul>-->
+                    <!--</td>-->
+                    <!--</tr>-->
+
+                    <!--</table>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6">-->
+                    <!--<iframe id="map_control" src="./conference_map/hdms2018.html" width="100%" height="450"-->
+                    <!--frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    <!--</div>-->
+                    <div class="col-md-12 ">
+                        <!--<a href="http://www.easyconferences.org/hdms2018/register" target="_blank"-->
+                        <!--class="btn btn-primary">Book Now</a>-->
+                        <!--<p><b class="text-danger">Online registration is now closed.</b></p>-->
+                        <!--<p></p>-->
+                        <!--<p>[Μέσω του πιο πάνω συνδέσμου θα μπορέσετε να εγγραφείτε στο συμπόσιο, να κλείσετε δωμάτιο σε-->
+                        <!--ξενοδοχείο, να διευθετήσετε την μεταφορά σας προς/απο το αεροδρόμιο (taxi και ενοικίαση-->
+                        <!--οχήματος), να αγοράσετε επιπλέον εισιτήρια για το dinner]</p>-->
+
+
+
+
+                        <ul >
+
+                            <li>Μονό (απλό) Αγοριών κάτω των 12, 14 και 16. </li>
+                            <li>Μονό Κοριτσιών κάτω των 12, 14 και 16. </li>
+                            <li>Μονό Ανδρών, Μονό Γυναικών. </li>
+                            <li>Μονό βετεράνων Ανδρών άνω των 35, άνω των 45, άνω των 55 και άνω των 65. </li>
+                            <li>Μονό βετεράνων Γυναικών άνω των 35 και άνω των 50 </li>
+                            <li>Διπλό Αγοριών κάτω των 14 και Διπλό Κοριτσιών κάτω των 14. </li>
+                            <li>Διπλό Ανδρών και Διπλό Γυναικών.  </li>
+                            <li>Διπλό βετεράνων Ανδρών άνω των 45 και άνω των 55. </li>
+                            <li>Διπλό βετεράνων Γυναικών άνω των 35 και άνω των 45. </li>
+                            <li>Μεικτό Διπλό και Οικογενειακό Διπλό (πατέρας με γιό, πατέρας και κόρη, μητέρα με γιό, ή μητέρα με κόρη) χωρίς όριο ηλικίας.</li>
+                            <li>Για τα υπόλοιπα διπλά κάποιος για να αγωνισθεί θα πρέπει να είναι τουλάχιστον 14 ετών (δηλαδή να έχει γεννηθεί το 2005 ή αργότερα).</li>
+
+
+                        </ul>
+
+                        <strong style="color: #F44242"> Σημείωση:</strong>
+                        <p>
+                            Για να διεξαχθεί μια κατηγορία ο ελάχιστος αριθμός των αθλητών που θα συμμετάσχουν πρέπει να είναι 6
+                            άτομα στα μονά και στα διπλά 4 ζευγάρια. Εάν είναι μικρός ο αριθμός των συμμετεχόντων σε κάποιες κατηγορίες,
+                            οι διοργανωτές μπορεί να ενοποιήσουν κάποιες κατηγορίες. <strong>Επίσης οι αντισφαιριστές έχουν δικαίωμα να
+                            δηλώσουν συμμετοχή μόνο σε μια κατηγορία μονού, μία κατηγορία διπλού και επιπρόσθετα στις κατηγορίες μεικτού διπλού
+                            και Οικογενειακού μεικτού διπλού.</strong>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+    <section id="section-booklet" class="section-wrapper yellow-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Ασφάλεια Αθλητών</h1>
+                    </div>
+                    <div class="center-block">
+                        <ul>
+                            <li>
+                                Οι αντισφαιριστές/στριες λαμβάνουν μέρος στο πρωτάθλημα με δική τους ευθύνη όσον αφορά ασθένεια ή
+                                ατυχήματα που τυχόν υποστούν κατά τη διάρκεια των αγώνων και προτρέπονται να εξεταστούν ιατρικώς με
+                                δική τους φροντίδα.
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section-photos" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Φωτογραφίες</h1>
+                    </div>
+
+                </div>
+            </div>
+            <!--<div class="row">-->
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/42601803454/in/album-72157695741022922/"-->
+                       <!--title="20180702_154105"><img-->
+                            <!--src="https://farm2.staticflickr.com/1821/42601803454_c6586432b5_z.jpg" width="330"-->
+                            <!--height="180" class="center-block"-->
+                            <!--alt="20180702_154105"></a>-->
+                    <!--<br>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/42417584885/in/album-72157695741022922/"-->
+                       <!--title="Photo 02-07-2018, 17 47 55"><img-->
+                            <!--src="https://farm2.staticflickr.com/1787/42417584885_f288e30f03_z.jpg" width="330"-->
+                            <!--height="180" class="center-block"-->
+                            <!--alt="Photo 02-07-2018, 17 47 55"></a>-->
+                    <!--<br>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/43321640201/in/album-72157695741022922/"-->
+                       <!--title="Photo 02-07-2018, 19 52 25"><img-->
+                            <!--src="https://farm2.staticflickr.com/1805/43321640201_faa95b3e5c_z.jpg" width="330"-->
+                            <!--height="180" class="center-block"-->
+                            <!--alt="Photo 02-07-2018, 19 52 25"></a>-->
+                <!--</div>-->
+
+            <!--</div>-->
+            <br>
+            <!--<div class="row">-->
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/43320310871/in/album-72157695741022922/"-->
+                       <!--title="20180704_101530"><img-->
+                            <!--src="https://farm1.staticflickr.com/847/43320310871_080434d0cb_z.jpg" width="330"-->
+                            <!--height="180" class="center-block"-->
+                            <!--alt="20180704_101530"></a>-->
+                    <!--<br>-->
+                <!--</div>-->
+
+
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/41510811170/in/album-72157695741022922/"-->
+                       <!--title="20180704_112024"><img-->
+                            <!--src="https://farm1.staticflickr.com/920/41510811170_234d122b8e_z.jpg" width="330"-->
+                            <!--height="180" class="center-block" alt="20180704_112024"></a>-->
+                    <!--<br>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-4">-->
+                    <!--<a target="_blank" data-flickr-embed="true"-->
+                       <!--href="https://www.flickr.com/photos/65104616@N07/41511013000/in/album-72157695741022922/"-->
+                       <!--title="20180704_113713"><img-->
+                            <!--src="https://farm2.staticflickr.com/1769/41511013000_b2fef14a2c_z.jpg"-->
+                            <!--width="330"-->
+                            <!--height="180" class="center-block" alt="20180704_113713"></a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <br>
+            <div class="text-center">
+                <a href=""
+                   target="_blank" type="button" class="btn btn-danger">Όλες οι Φωτογραφίες</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section  id="section-archive" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Οργανωτική Επιτροπή</h1><br>
+                    </div>
+                    <strong>Υπεύθυνος πρωταθλήματος:</strong><br>
+                    <a href="https://www.cs.ucy.ac.cy/index.php/el/people/faculty/7-antonis" target="_blank">Αντώνης Κάκας</a>
+                    (Πανεπιστήμιο
+                    Κύπρου, Κύπρος)<br>
+
+                    <br>
+                    <strong>Επιδιαιτητής και υπεύθυνος αγώνων:</strong><br>
+                    <a href="" target="_blank">Γιώργος Βασιλειάδης</a> (Πανεπιστήμιο
+                    Κύπρου, Κύπρος)<br>
+                    <br>
+
+                    <strong>Βοηθός επιδιαιτητή και υπεύθυνη γηπέδων:</strong><br>
+                    <a href="http://www.ucy.ac.cy/dir/el/cb-profile/erodotou" target="_blank">Μαρία Ηροδότου</a> (Πανεπιστήμιο Κύπρου,
+                    Κύπρος)<br>
+                    <br>
+
+                    <strong>Επιτροπή διοργάνωσης πρωταθλήματος:</strong><br>
+                    <a href="https://ucy.ac.cy/dir/en/component/comprofiler/userprofile/damianou" target="_blank">Παντελής Δαμιανού</a> (Πανεπιστήμιο
+                        Κύπρου, Κύπρος)<br>
+                    <br>
+
+                    <a href="http://www.cs.ucy.ac.cy/~skevos/" target="_blank">Σκεύος Ευριπίδου</a> (Πανεπιστήμιο
+                        Κύπρου, Κύπρος)<br>
+                    <br>
+
+                    <a href=" " target="_blank">Κώστας Σοφοκλέους</a> (Πανεπιστήμιο
+                        Κύπρου, Κύπρος)<br>
+                    <br>
+
+
+                        <a href="http://ucy.ac.cy/dir/el/component/comprofiler/userprofile/petrosk" target="_blank">Πέτρος Κωμοδρόμος</a> (Πανεπιστήμιο
+                        Κύπρου, Κύπρος)<br>
+                    <br>
+
+
+
+
+
+
+                    <strong>Υπεύθυνος προβολής και ενημέρωσης:</strong><br>
+                    <a href="http://www.cs.ucy.ac.cy/~dzeina/" target="_blank">Δημήτρης Ζεϊναλιπούρ</a> (Πανεπιστήμιο Κύπρου,
+                    Κύπρος)<br>
+
+                    <br>
+
+                    <strong> Δημιουργία Ιστοσελίδας:</strong><br>
+                    <a href="" target="_blank"> Λούκας Σολέα</a> ((Πανεπιστήμιο Κύπρου,
+                    Κύπρος) <br>
+
+
+
+
+
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+
+    <!-- .about-event -->
+    <!--<section id="section-archive" class="section-wrapper about-event">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+
+                <!--<div class="col-md-12 text-center">-->
+                    <!--<div class="section-title">-->
+                        <!--<h1> Προηγούμενα Συμπόσια</h1>-->
+                    <!--</div>-->
+                    <!--<div class="custom-collapse">-->
+                        <!--<ul class="list" id="side-menu-collapse">-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms17.aueb.gr" target="_blank">HDMS-->
+                                <!--2017 - Αθήνα, Ελλάδα</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms16.aueb.gr" target="_blank">HDMS-->
+                                <!--2016 - Αθήνα, Ελλάδα</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms15.cs.aueb.gr"-->
+                                                                           <!--target="_blank">HDMS 2015 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms14.di.uoa.gr/"-->
+                                                                           <!--target="_blank">HDMS 2014 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms2012.softnet.tuc.gr/"-->
+                                                                           <!--target="_blank">HDMS 2012 - Χανιά, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms11.di.uoa.gr/"-->
+                                                                           <!--target="_blank">HDMS 2011 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://www.cs.ucy.ac.cy/%7Ehdms2010/"-->
+                                                                           <!--target="_blank">HDMS 2010 - Αγία Νάπα,-->
+                                <!--Κύπρος</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms09.di.uoa.gr/"-->
+                                                                           <!--target="_blank">HDMS 2009 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://www.hdms08.gr/" target="_blank">HDMS-->
+                                <!--2008 - Ηράκλειο, Ελλάδα</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://hdms07.di.uoa.gr/"-->
+                                                                           <!--target="_blank">HDMS 2007 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://delab.csd.auth.gr/hdms2006/"-->
+                                                                           <!--target="_blank">HDMS 2006 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a href="http://www.ics.forth.gr/hdms05/"-->
+                                                                           <!--target="_blank">HDMS 2005 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a-->
+                                    <!--href="http://web.archive.org/web/20080201014427/http://www.cti.gr/hdms/2004.htm"-->
+                                    <!--target="_blank">HDMS 2004 - Αθήνα, Ελλάδα</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a-->
+                                    <!--href="http://web.archive.org/web/20080203194322/http://www.cti.gr/HDMS_2003/2003.htm"-->
+                                    <!--target="_blank">HDMS 2003 - Αθήνα, Ελλάδα</a></li>-->
+                            <!--<li class="list-group-item dropdown-toggle"><a-->
+                                    <!--href="http://cgi.di.uoa.gr/~ad/AssortedURLS/HDMS02.html" target="_blank">HDMS-->
+                                <!--2002 - Αθήνα, Ελλάδα</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                    <!--<br>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+    <!-- contact-section -->
+    <section id="section-coo" class="section-wrapper yellow-bg">
+        <div class="container">
+            <div class="row egg">
+
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h1>Οργανωτής</h1>
+                    </div>
+                    <a href="http://www.ucy.ac.cy" target="_blank"><img src="img/University_of_Cyprus_en.jpg"
+                                                                        height="144" class="sponsors"></a>
+                    <!--<a href="https://pitt.edu/" target="_blank"><img-->
+                            <!--src="img/pitt-seal.png"-->
+                            <!--height="144" alt="University of Pittsburgh" class="sponsors"></a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="section-sponsors" class="section-wrapper">-->
+        <!--<div class="container">-->
+            <!--<div class="row egg">-->
+
+                <!--<div class="col-md-12 text-center">-->
+                    <!--<div class="section-title">-->
+                        <!--<h1>Χορηγοί</h1>-->
+                    <!--</div>-->
+                    <!--<a href="https://cyta.com.cy"-->
+                       <!--target="_blank"><img-->
+                            <!--src="img/LogoH_Cyta_CMYK_Hi.jpg"-->
+                            <!--width="210" alt="CYTA" class="sponsors"></a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row egg">-->
+
+                <!--<div class="col-md-12 text-center">-->
+
+                    <!--<a href="https://book.austrian.com/app/fb.fly?action=preload&evoucher=HDMS18" target="_blank"><img-->
+                            <!--src="img/austrian.png"-->
+                            <!--height="144" alt="Austrian Airlines" class="sponsors"></a>-->
+                    <!--<a href="http://www.mcw.gov.cy/mcw/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument"-->
+                       <!--target="_blank"><img-->
+                            <!--src="img/dacy.jpeg"-->
+                            <!--height="144" alt="Department of Antiquities" class="sponsors"></a>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <!--<section id="section-mngmt" class="section-wrapper yellow-bg">-->
+        <!--<div class="container">-->
+            <!--<div class="row egg">-->
+
+                <!--<div class="col-md-12 text-center">-->
+                    <!--<div class="section-title">-->
+                        <!--<h1>Διαχείριση Συμποσίου</h1>-->
+                    <!--</div>-->
+                    <!--<a href="http://easyconferences.eu/" target="_blank"><img-->
+                            <!--src="img/eclogo.png"-->
+                            <!--width="210" alt="Easy Conferences" class="sponsors"></a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+
+    <!--<section id="section-contact" class="section-wrapper">-->
+        <!--<div class="container">-->
+            <!--<div class="row egg">-->
+                <!--<div class="col-md-6">-->
+                    <!--&lt;!&ndash;<div id="googleMap"></div>&ndash;&gt;-->
+                    <!--<iframe width="100%" height="600" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"-->
+                            <!--allow="geolocation"-->
+                            <!--src="https://ap.cs.ucy.ac.cy/viewer/?cuid=ucy&buid=building_da6aaaab-a53c-4f43-ab20-366ef02bc3da_1424020987563&floor=-1&selected=poi_319e70bd-0727-4d24-b0e1-44d7fe291f83"></iframe>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-6 text-center">-->
+                    <!--<div class="section-title">-->
+                        <!--<h1>Διεύθυνση Επικοινωνίας</h1>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<p class="lead"><a href="https://www.cs.ucy.ac.cy/" target="_blank">Τμήμα Πληροφορικής</a><br>-->
+                            <!--<a href="https://www.ucy.ac.cy/" target="_blank">Πανεπιστήμιο Κύπρου</a></p>-->
+
+                        <!--<p class="lead"> Πανεπιστημίου 1,-->
+                            <!--<br> Τ.Θ. 20537,-->
+                            <!--<br> 2109 Λευκωσία,-->
+                            <!--<br> Κύπρος-->
+                            <!--<br> +357 22 892 700-->
+                        <!--<h2>Ηλεκτρονική Διεύθυνση</h2>-->
+                        <!--<a href="mailto:hdms18@cs.ucy.ac.cy">hdms18@cs.ucy.ac.cy</a><br>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <footer class="footer yellow-bg">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">© 2019 DMSL. All rights reserved | Design By: <a
+                            href="https://dmsl.cs.ucy.ac.cy/" target="_blank">DMSL</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+    <div id="main-dialog"></div>
+    <a id="back-to-top" href="#" class="btn btn-danger back-to-top" role="button"
+       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+            class="fa fa-chevron-up"></span></a>
+    <!-- #main-wrapper -->
+
+</div>
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/photo-gallery.min.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery-ui.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4hoXl0p7LjPX89lCFL137n6CdbivG7WM"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
