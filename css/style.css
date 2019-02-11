@@ -267,7 +267,7 @@ button:focus,
 }
 
 .sticky-nav .navbar-brand > img {
-    content: url("../img/logo.png");
+    content: url("../img/ucy_logo_el.png");
 }
 
 .navbar-brand > img {
@@ -276,15 +276,15 @@ button:focus,
 }
 
 .navbar-brand > img {
-    content: url("../img/logo_white.png");
+    content: url("../img/ucy_logo_el.png");
 }
 
 .sticky-nav .navbar-brand.el > img {
-    content: url("../img/logo_el.png");
+    content: url("../img/ucy_logo_el.png");
 }
 
 .navbar-brand.el > img {
-    content: url("../img/logo_white_el.png");
+    content: url("../img/ucy_logo_el.png");
 }
 
 @media (max-width: 768px) {
@@ -1003,6 +1003,9 @@ ul {
     bottom: 20px;
     right: 20px;
     display: none;
+
+
+
 }
 
 .date-border {
