@@ -926,7 +926,9 @@ ul {
 }
 
  #section-archive li {
-padding-left: 50ex;
+padding-left: 15%;
+
+
 }
 
 /*Flex items*/
