@@ -268,7 +268,7 @@ button:focus,
 }
 
 .sticky-nav .navbar-brand > img {
-    content: url("../img/University_of_Cyprus_gr.gif");
+    content: url("../img/UCY gr-eng logo white.png");
 }
 
 .navbar-brand > img {
@@ -277,15 +277,15 @@ button:focus,
 }
 
 .navbar-brand > img {
-    content: url("../img/University_of_Cyprus_gr.gif");
+    content: url("../img/UCY gr-eng logo white.png");
 }
 
 .sticky-nav .navbar-brand.el > img {
-    content: url("../img/University_of_Cyprus_gr.gif");
+    content: url("../img/ucy_logo_el.png");
 }
 
 .navbar-brand.el > img {
-    content: url("../img/University_of_Cyprus_gr.gif");
+    content: url("../img/UCY gr-eng logo white.png");
 }
 
 @media (max-width: 768px) {
