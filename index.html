@@ -2,42 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <meta http-equiv="Cache-Control" content="max-age=86400"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Cache-Control" content="max-age=86400"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Πανεπιστήμιο Κύπρου</title>
+        
+        <!-- favicon -->
+        <link href="University_of_Cyprus.svg.png" rel=icon/>
+        
+        <!-- web-fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="css/jquery-ui.min.css" rel="stylesheet"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        
+        <!-- Style CSS -->
+        <link href="css/style.css" rel="stylesheet"/>
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+         <![endif]-->
+        <script type="text/javascript">
+            if (window.location.protocol !== "https:")
+                window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
             
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-            <title>Πανεπιστήμιο Κύπρου</title>
             
-            <!-- favicon -->
-            <link href="University_of_Cyprus.svg.png" rel=icon/>
-            
-            <!-- web-fonts -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-            <link href="css/jquery-ui.min.css" rel="stylesheet"/>
-            
-            <!-- Bootstrap -->
-            <link href="css/bootstrap.min.css" rel="stylesheet"/>
-            
-            <!-- Style CSS -->
-            <link href="css/style.css" rel="stylesheet"/>
-            
-            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-            <!--[if lt IE 9]>
-             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-             <![endif]-->
-            <script type="text/javascript">
-                if (window.location.protocol !== "https:")
-                    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-                
-                
-                function spiderjam(mym, myd){
-                    document.write("<a href=mailto:"    + mym + "&#64;" + myd + ">" + mym + "&#64;" + myd + "</a>");
-                }
-                </script>
-            </head>
+            function spiderjam(mym, myd){
+                document.write("<a href=mailto:"    + mym + "&#64;" + myd + ">" + mym + "&#64;" + myd + "</a>");
+            }
+        </script>
+    </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar" onload="fixNavbarIssue()">
         <div id="main-wrapper">
             <!-- Page Preloader -->
@@ -68,8 +68,8 @@
                             </button>
                             
                             
-                            <a class="navbar-brand page-scroll el" href="#page-top"><!--<img src="img/e"></a>-->
-                                <img  id="ucy_logo" src="img/ucy_logo_el.jpg">
+                            <a class="navbar-brand page-scroll el" href="https://www.ucy.ac.cy/"><!--<img src="img/e"></a>-->
+                                <a target="_blank" href="https://www.ucy.ac.cy/"><img  id="ucy_logo" border="0" width="200" src="img/ucy_logo_el.png"></a>
                                     
                                     
                                     </div>
@@ -83,17 +83,6 @@
                                 <li class="hidden"><a href="#page-top"></a></li>
                                 
                                 <li><a class="" href="#myCarousel">ΑΡΧΗ</a></li>
-                                <!--<li><a class="" href="#section-topics">ΘΕΜΑΤΑ</a></li>-->
-                                <!--<li><a class="" href="#section-dates">ΗΜΕΡΕΣ</a></li>-->
-                                <!--<li><a class="dropdown-toggle" data-toggle="dropdown">πρόσκληση<b-->
-                                <!--class="caret"></b></a>-->
-                                <!--<ul class="dropdown-menu">-->
-                                <!--<li><a target="_blank" href="hdms18-cfp.txt" class="popup">ΓΙΑ ΕΡΕΥΝΗΤΕΣ</a></li>-->
-                                <!--<li><a target="_blank" href="hdms18-poster-cfp.txt" class="popup">ΓΙΑ ΦΟΙΤΗΤΕΣ</a></li>-->
-                                <!--<li><a href="https://cmt3.research.microsoft.com/HDMS2018/" target="_blank">Υποβολή</a>-->
-                                <!--</li>-->
-                                <!--</ul>-->
-                                <!--</li>-->
                                 <li><a class="dropdown-toggle" data-toggle="dropdown">Συμμετοχη<b class="caret"></b></a>
                                     <ul class="dropdown-menu text-center">
                                         <li><a href="#section-accommodation">Κατηγοριες</a></li>
@@ -166,27 +155,17 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/photo-ucy1.jpg">
-                            </div>
+                        <img src="img/photo-ucy1.jpg"/>
+                    </div>
                     <div class="item">
-                        <img src="img/photo-ucy2.jpg">
-                            </div>
-                    
-                    <!--<div class="item ">-->
-                    <!--<img src="img/gbh1.jpg">-->
-                    <!--</div>-->
-                    
-                    <!--<div class="item">-->
-                    <!--<img src="img/gbh2.jpg">-->
-                    <!--</div>-->
-                    
-                    
+                        <img src="img/photo-ucy2.jpg"/>
+                    </div>
                 </div>
             </div>
             <div class="overlay"></div>
             <div class="content">
                 <h1>1<sup>oν</sup>Ανοικτό Πρωτάθλημα Αντισφαίρισης Πανεπιστημίου Κύπρου - Γιώργος Σαμάρας 2019</h1>
-                <p class="lead">Ο Γιώργος Σαμάρας ήταν καθηγητής στο Τμήμα Πληροφορικής του Πανεπιστημίου Κύπρου<br></p>
+                <p class="lead"> εις μνήμην του αείμνηστου Καθηγητή του Τμήματος Πληροφορικής του Πανεπιστημίου Κύπρου Γιώργου Σαμάρα<br></p>
                 <div class="event-date">18-26 Μαΐου, 2019</div>
                 
                 <li><a href="#section-venue"></a></li>
@@ -222,7 +201,6 @@
                         προτύπων στους τομείς της Κατανεμημένης Επεξεργασίας Κίνησης Πληροφοριών (OST/TP, ΧΟΡΕΝ, OMG).
                         Επιπρόσθετα, δίδαξε στο Πανεπιστήμιο της Βόρειας Καρολίνας στο Chapel Hill (UNC), ως Επισκέπτης
                         Ο Γιώργος Σαμάρας απεβίωσε το απόγευμα της Δευτέρας, 30 Ιουλίου 2018, σε ηλικία μόλις 60 ετών.
-                        
                         <br>
                         
                         <a target="_blank" href="https://www.ucy.ac.cy/documents/NewsBanner/Samaras31.7.18.pdf">Ανακοίνωση Τύπου</a>
@@ -282,14 +260,12 @@
                             <br>
                             <strong style="color: #F44242"> Σημειώσεις:</strong><br><br>
                             <ul>
-                                <li>Στην κάθε κατηγορία μπορεί να λάβει  μέρος οποιοδήποτε άτομο το επιθυμεί το οποίο την τελευταία ημερομηνία υποβολής των αιτήσεων, δε βρίσκεται στους δεκαέξι <strong>(16) </strong>πρώτους (για τα αγόρια και τους άντρες) και στις πρώτες οκτώ <strong>(8)</strong> πρώτες (για τα κορίτσια και γυναίκες) της αντίστοιχης κατηγορίας της επίσημης Παγκύπριας κατάταξης της Ομοσπονδίας Αντισφαίρισης Κύπρου (ΟΑΚ). Κατάταξη ΟΑΚ: <a target="_blank" href="http://ctf.tournamentsoftware.com/ranking/ranking.aspx?rid=86">http://ctf.tournamentsoftware.com/ranking/ranking.aspx?rid=86</a>.
+                                <li>Στην κάθε κατηγορία μπορεί να λάβει  μέρος οποιοδήποτε άτομο το οποίο κατά την τελευταία ημερομηνία υποβολής των αιτήσεων, δε βρίσκεται στους δεκαέξι <strong>(16) </strong>πρώτους (για τα αγόρια και τους άντρες) και στις πρώτες οκτώ <strong>(8)</strong> πρώτες (για τα κορίτσια και γυναίκες) της αντίστοιχης κατηγορίας της επίσημης Παγκύπριας κατάταξης της Ομοσπονδίας Αντισφαίρισης Κύπρου (ΟΑΚ). Κατάταξη ΟΑΚ: <a target="_blank" href="http://ctf.tournamentsoftware.com/ranking/ranking.aspx?rid=86">http://ctf.tournamentsoftware.com/ranking/ranking.aspx?rid=86</a>. Ο πιο πάνω περιορισμός εφαρμόζεται εφόσον το πρωτάθλημα αποσκοπεί στην διευρυμένη προαγωγή του αθλήματος. Εξυπακούεται ότι ένα άτομο μπορεί να λάβει μέρος σε οποιαδήποτε άλλη κατηγορία εφόσον δεν παραβιάζεται ο πιο πάνω περιορισμός.
                                 </li>
                                 <li>Για να διεξαχθεί μια κατηγορία ο ελάχιστος αριθμός των αθλητών που θα συμμετάσχουν πρέπει να είναι 6
                                     άτομα στα μονά και στα διπλά 4 ζευγάρια. Εάν είναι μικρός ο αριθμός των συμμετεχόντων σε κάποιες κατηγορίες,
                                     οι διοργανωτές ενδέχεται να ενοποιήσουν κάποιες κατηγορίες.
                                 </li>
-                                
-                                
                             </ul>
                             
                         </div>
@@ -298,94 +274,6 @@
             </div>
             
         </section>
-        
-        
-        
-        
-        <!--
-         
-         <section id="section-age" class="section-wrapper">
-         <div class="container">
-         <div class="row">
-         <div class="col-md-12">
-         <div class="section-title">
-         <h1>Ηλικίες διαγωνιζομένων</h1>
-         </div>
-         
-         <div class="col-md-12 ">
-         
-         <ul>
-         <li>
-         Αγοριών/Κοριτσιών κάτω των 12 (όσοι και όσες γεννήθηκαν το 2007 ή αργότερα)
-         
-         </li>
-         <li>
-         Αγοριών/Κοριτσιών κάτω των 14 (όσοι και όσες γεννήθηκαν γεννήθηκαν το 2005 ή αργότερα)
-         
-         </li>
-         <li>
-         Αγοριών/Κοριτσιών κάτω των 16 (όσοι και όσες γεννήθηκαν γεννήθηκαν το 2003 ή αργότερα)
-         
-         </li>
-         
-         <li>
-         Ανδρών (χωρίς όριο ηλικίας)
-         </li>
-         
-         <li>
-         Ανδρών +35 ( όσοι γεννήθηκαν το 1984 ή νωρίτερα)
-         </li>
-         
-         <li>
-         Ανδρών +45 ( όσοι γεννήθηκαν το 1974 ή νωρίτερα)
-         </li>
-         
-         
-         <li>
-         Ανδρών +55 ( όσοι γεννήθηκαν το 1964 ή νωρίτερα)
-         </li>
-         
-         <li>
-         Ανδρών +65 ( όσοι γεννήθηκαν το 1954 ή νωρίτερα)
-         </li>
-         
-         <li>
-         Γυναικών (χωρίς όριο ηλικίας)
-         </li>
-         
-         <li>
-         Γυναικών +35 (όσες γεννήθηκαν το 1984 ή νωρίτερα)
-         </li>
-         <li>
-         Γυναικών +45 (όσες γεννήθηκαν το 1974 ή νωρίτερα)
-         </li>
-         
-         <li>
-         Διπλό ανδρών, γυναικών και μικτό ( όσοι/ες γεννήθηκαν το 2005 ή νωρίτερα)
-         </li>
-         
-         <li>
-         Διπλό οικογενειακό (χωρίς περιορισμό στην ηλικία, με μόνη προϋπόθεση τη
-         συγγένεια μεταξύ των παικτών/τριών της κάθε ομάδας)
-         </li>
-         
-         </ul>
-         
-         
-         
-         </div>
-         </div>
-         </div>
-         </div>
-         
-         
-         </section>
-         
-         -->
-        
-        
-        
-        
         
         <section id="section-topics" class="section-wrapper">
             <div class="container">
@@ -470,8 +358,7 @@
                                 </tr>
                                 <tr>
                                     <td>(Προαιρετικό) Επιπλέον Κόστος ανά άτομο</td>
-                                    <td>€5 για κάθε επιπλέον κατηγορία (συνολικά μέχρι 4 συμμετοχές / αντισφαιριστή
-                                        )</td>
+                                    <td>€5 για κάθε επιπλέον κατηγορία (μέχρι 4 κατηγορίες)</td>
                                     
                                 </tr>
                                 
@@ -483,25 +370,9 @@
                             <li>
                                 <b>Καταληκτική ημερομηνία ηλεκτρονικής εγγραφής:</b> <font color="red"><b>Τρίτη, 14 Μαΐου 2019</b></font>.
                             </li>
-                            <li><b>Επιβεβαίωση Συμμετοχής: <font color="red"><b>Τετάρτη, 15 Μαΐου 2019</b></font></b>.(Παρακαλώ επικοινωνήστε με την οργανωτική επιτροπή μέχρι την ημερομηνία αυτή σε περίπτωση που δεν λάβετε επιβεβαίωση συμμετοχής.)
-
-                            </li>
-                            <li>
-
-                                <b> Κλήρωση και Ανάρτηση Προγράμματος:</b> Πέμπτη, 16 Μαΐου 2019.
-                            </li>
-                            <li>
-
-                                <b> Έναρξη Πρωταθλήματος:</b> Σάββατο, 18 Μαΐου, 2019
-                            </li>
-                            <li>
-
-                               <b> Λήξη Πρωταθλήματος: </b>Κυριακή, 26 Μαΐου, 2019
-                            </li>
-
-                            <li>Η καταβολή του αντίστοιχου αντιτίμου, o ηλικιακός έλεγχος και η υπογραφή του έντυπου συμμετοχής στη διοργάνωση θα γίνει στο χώρο διεξαγωγής του Πρωταθλήματος κατά την μέρα διεξαγωγής του. Τα έσοδα θα διατεθούν για κάλυψη των εξόδων της διοργάνωσης.
-                            </li>
-
+                            <li><b>Επικύρωση της συμμέτοχης στην κλήρωση του πρωταθλήματος: <font color="red"><b>Πέμπτη, 16 Μαΐου 2019</b></font></b>.  Παρακαλώ επικοινωνήστε με την οργανωτική επιτροπή μέχρι την Πέμπτη 17 Μαΐου 2019 σε περίπτωση που δεν λάβετε επιβεβαίωση συμμετοχής.
+                                <li>Η καταβολή του αντίστοιχου αντιτίμου, o ηλικιακός έλεγχος και η υπογραφή του έντυπου συμμετοχής στη διοργάνωση θα γίνει στο χώρο διεξαγωγής του Πρωταθλήματος κατά την μέρα διεξαγωγής του. Τα έσοδα θα διατεθούν για την κάλυψη των εξόδων της διοργάνωσης.
+                                </li>
                                 <li>Παρακαλώ μελετήστε τους όρους της διοργάνωσης στη σελίδα αυτή προτού ολοκληρώσετε την εγγραφή σας.
                                 </li>
                                 </ul>
@@ -568,33 +439,9 @@
                                 <tr>
                                     <td>Θα αρχίζουν στις 8:00 π.μ. και οι τελευταίοι αγώνες θα είναι
                                         προγραμματισμένοι για να αρχίζουν γύρω στις 8.00 μ.μ</td>
-                                    <!--<td>-->
-                                    <!--<a data-toggle="collapse" href="#d1" data-target="#ds">Σεμινάριο-->
-                                    <!--<span class="fa fa-caret-down"></span>-->
-                                    <!--</a>-->
-                                    <!--<div class="collapse" id="ds">-->
-                                    <!--<p> Σεμινάριο: Επιστήμη Δεδομένων για Διασυνδεδεμένα Γεωχωρικά Δεδομένα-->
-                                    <!--και Δεδομένα Τηλεπισκόπησης</p>-->
-                                    <!--<p> Κωνσταντίνα Μπερέτα (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Μανόλης-->
-                                    <!--Κουμπαράκης (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Stefan-->
-                                    <!--Manegold (Centrum Wiskunde & Informatica), Χαράλαμπος Νικολάου (University-->
-                                    <!--of Oxford), Γιώργος Σταμούλης (Εθνικό και Καποδιστριακό Πανεπιστήμιο-->
-                                    <!--Αθηνών))</p>-->
-                                    <!--</div>-->
-                                    <!--</td>-->
-                                    
-                                    
                                 </tr>
-                                
-                                
                             </tbody>
                         </table>
-                        
-                        
-                        
-                        
-                        
-                        
                         
                         <table class="table table-bordered table-striped  bg-info">
                             <thead>
@@ -606,14 +453,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <!--<tr>-->
-                                <!--<td>Η κλήρωση των αγώνων </td>-->
                                 <td>
                                     <a data-toggle="collapse" href="#d3" data-target="#ds">Η κλήρωση των αγώνων
                                         <span class="fa fa-caret-down"></span>
                                     </a>
                                     <div class="collapse" id="ds">
-                                        <p> Η κλήρωση των αγώνων θα γίνει την Πέμπτη 16 Μαΐου 2019 και θα αναρτηθεί στην ιστοσελίδα μαζί με
+                                        <p> Η κλήρωση των αγώνων θα γίνει την Τετάρτη 15 Μαΐου 2019 και θα αναρτηθεί στην ιστοσελίδα μαζί με
                                         το πρόγραμμα των αγώνων.
                                         Το πρόγραμμα των αγώνων θα ανανεώνεται στο τέλος κάθε αγωνιστικής μέρας, σύμφωνα με τα αποτελέσματα
                                         που θα προκύπτουν από τους αγώνες που θα διεξάγονται.</p>
@@ -637,9 +482,6 @@
                                             <strong>
                                                 Παρακλήσεις για αλλαγή στο πρόγραμμα πρέπει να αποφεύγονται, για την ομαλή   διεξαγωγή του πρωταθλήματος.
                                             </strong></p>
-                                            
-                                            
-                                            
                                         </div>
                                     </td>
                                     
@@ -656,20 +498,12 @@
                                             να ειδοποιήσει έγκαιρα τον υπεύθυνο πρωταθλήματος, ο οποίος με τη σειρά του θα ειδοποιεί τον αντίπαλο
                                             αντισφαιριστή για τη μη διεξαγωγή του αγώνα, και θα χάνει το αγώνα. Κανένας αγώνας δέν αναβάλλεται ή
                                             μετατίθεται.</p>
-                                            
-                                            
-                                            
                                         </div>
                                     </td>
                                     
                                 </tr>
-                                
-                                
-                                
                             </tbody>
                         </table>
-                        
-                        
                         
                         <table class="table table-bordered table-striped  bg-info">
                             <thead>
@@ -685,51 +519,14 @@
                                     <td>Η τελετή βράβευσης θα γίνει την Κυριακή 26 Μαΐου, όπου στον/στην πρώτο/η και δεύτερο/η νικητή/τρια
                                         κάθε κατηγορίας θα απονεμηθούν κύπελλα.
                                     </td>
-                                    
-                                    
-                                    <!--<td>-->
-                                    <!--<a data-toggle="collapse" href="#d1" data-target="#ds">Σεμινάριο-->
-                                    <!--<span class="fa fa-caret-down"></span>-->
-                                    <!--</a>-->
-                                    <!--&lt;!&ndash;<div class="collapse" id="ds">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<p> Σεμινάριο: Επιστήμη Δεδομένων για Διασυνδεδεμένα Γεωχωρικά Δεδομένα&ndash;&gt;-->
-                                    <!--&lt;!&ndash;και Δεδομένα Τηλεπισκόπησης</p>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<p> Κωνσταντίνα Μπερέτα (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Μανόλης&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Κουμπαράκης (Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών), Stefan&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Manegold (Centrum Wiskunde & Informatica), Χαράλαμπος Νικολάου (University&ndash;&gt;-->
-                                    <!--&lt;!&ndash;of Oxford), Γιώργος Σταμούλης (Εθνικό και Καποδιστριακό Πανεπιστήμιο&ndash;&gt;-->
-                                    <!--&lt;!&ndash;Αθηνών))</p>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                    <!--</td>-->
-                                    
-                                    
                                 </tr>
-                                
-                                
                             </tbody>
                         </table>
-                        
-                        
                     </div>
                 </div>
             </div>
             <!-- /.row-->
         </section>
-        
-        
-        
-        
-        
-        
-        
-        <!-- /.row-->
-        
-        
-        
-        
-        
-        
-        
         
         
         
@@ -743,77 +540,13 @@
                         
                     </div>
                 </div>
-
-
-
-
-
-                <div class="row">
-                <div class="col-md-6">
-                <a target="_blank" data-flickr-embed="true"
-                href="https://flic.kr/p/2eKpUhe"
-                title="20180702_154105"><img
-                src="img/photos.egallery_temp.jpg" width="330"
-                height="180" class="center-block"
-                alt="20180702_154105"></a>
-                <br>
-                </div>
                 
-                <div class="col-md-4">
-                <a target="_blank" data-flickr-embed="true"
-                href="https://flic.kr/p/2eKqyEr"
-                title="Photo 02-07-2018, 17 47 55"><img
-                src="img/photos.egallery_temp-1.jpg" width="330"
-                height="180" class="center-block"
-                alt="Photo 02-07-2018, 17 47 55"></a>
-                <br>
-                </div>
-                <!---->
-                <!--<div class="col-md-4">-->
-                <!--<a target="_blank" data-flickr-embed="true"-->
-                <!--href="https://www.flickr.com/photos/65104616@N07/43321640201/in/album-72157695741022922/"-->
-                <!--title="Photo 02-07-2018, 19 52 25"><img-->
-                <!--src="https://farm2.staticflickr.com/1805/43321640201_faa95b3e5c_z.jpg" width="330"-->
-                <!--height="180" class="center-block"-->
-                <!--alt="Photo 02-07-2018, 19 52 25"></a>-->
-                <!--</div>-->
-                
-                </div>
-                <br>
-                <!--<div class="row">-->
-                <!--<div class="col-md-4">-->
-                <!--<a target="_blank" data-flickr-embed="true"-->
-                <!--href="https://www.flickr.com/photos/65104616@N07/43320310871/in/album-72157695741022922/"-->
-                <!--title="20180704_101530"><img-->
-                <!--src="https://farm1.staticflickr.com/847/43320310871_080434d0cb_z.jpg" width="330"-->
-                <!--height="180" class="center-block"-->
-                <!--alt="20180704_101530"></a>-->
-                <!--<br>-->
-                <!--</div>-->
-                
-                
-                <!--<div class="col-md-4">-->
-                <!--<a target="_blank" data-flickr-embed="true"-->
-                <!--href="https://www.flickr.com/photos/65104616@N07/41510811170/in/album-72157695741022922/"-->
-                <!--title="20180704_112024"><img-->
-                <!--src="https://farm1.staticflickr.com/920/41510811170_234d122b8e_z.jpg" width="330"-->
-                <!--height="180" class="center-block" alt="20180704_112024"></a>-->
-                <!--<br>-->
-                <!--</div>-->
-                
-                <!--<div class="col-md-4">-->
-                <!--<a target="_blank" data-flickr-embed="true"-->
-                <!--href="https://www.flickr.com/photos/65104616@N07/41511013000/in/album-72157695741022922/"-->
-                <!--title="20180704_113713"><img-->
-                <!--src="https://farm2.staticflickr.com/1769/41511013000_b2fef14a2c_z.jpg"-->
-                <!--width="330"-->
-                <!--height="180" class="center-block" alt="20180704_113713"></a>-->
-                <!--</div>-->
-                <!--</div>-->
-                <br>
                 <div class="text-center">
-                    <a href="https://flic.kr/s/aHsm9HCoFT"
-                        target="_blank" type="button" class="btn btn-danger">ολες οι Φωτογραφιες</a>
+                    
+                    <a target="_blank" data-flickr-embed="true" href="https://www.flickr.com/photos/168293734@N07/" title="New Tennis Courts | Athletic Center | UCY"><img src="img/ucy-tennis-court.jpg" width="80%" class="center-block" alt="Γήπεδα Τέννις - Αθλητικό Κέντρο | Πανεπιστήμιο Κύπρου"/></a><br><br>
+                    
+                    <a href="http://applications.ucy.ac.cy/phforall/photos.egallery_temp.view_category?proc_category_id=68" target="_blank" type="button" class="btn btn-danger">Αθλητικο Κεντρο</a> &nbsp;&nbsp;&nbsp;
+                     <a href="https://www.flickr.com/photos/168293734@N07/" target="_blank" type="button" class="btn btn-danger">Φωτογραφιες</a>
                 </div>
             </div>
         </section>
@@ -824,53 +557,46 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title">
-                            <h1>Οργανωτική Επιτροπή</h1><br>
+                            <h1>Οργάνωση</h1><br>
                         </div>
                         <strong>Υπεύθυνος Πρωταθλήματος:</strong><br>
-                        <a href="https://www.cs.ucy.ac.cy/index.php/el/people/faculty/7-antonis" target="_blank">Αντώνης Κάκας</a>
-                        (Πανεπιστήμιο
-                        Κύπρου, Κύπρος)<br>
+                        <a href="https://www.cs.ucy.ac.cy/~antonis/" target="_blank">Αντώνης Κάκας</a> (<a target="_blank" href="www.cs.ucy.ac.cy/">Τμ. Πληροφορικής</a>, Πανεπιστήμιο Κύπρου)<br>
                         
                         <br>
-                        <strong>Επιδιαιτητής και Υπεύθυνος Αγώνων:</strong><br>
-                        <a href="" target="_blank">Γιώργος Βασιλειάδης</a> (Πανεπιστήμιο
-                        Κύπρου, Κύπρος)<br>
+                        <strong>Επιδιαιτητής και Υπεύθυνος Αγώνων:</strong><br> Γιώργος Βασιλειάδης (White Badge Referee)<br>
                         <br>
                         
                         <strong>Βοηθός Επιδιαιτητή και Υπεύθυνη Γηπέδων:</strong><br>
-                        <a href="http://www.ucy.ac.cy/dir/el/cb-profile/erodotou" target="_blank">Μαρία Ηροδότου</a> (Πανεπιστήμιο Κύπρου,
-                        Κύπρος)<br>
+                        <a href="http://www.ucy.ac.cy/dir/el/cb-profile/erodotou" target="_blank">Μαρία Ηροδότου</a> (<a target="_blank" href=" https://www.ucy.ac.cy/athletics/el/">Αθλητικό Κέντρο</a>, Πανεπιστήμιο Κύπρου)<br>
                         <br>
                         
                         <strong>Οργανωτική Επιτροπή:</strong><br>
-                        <a href="https://ucy.ac.cy/dir/en/component/comprofiler/userprofile/damianou" target="_blank">Παντελής Δαμιανού</a> (Πανεπιστήμιο
-                        Κύπρου, Κύπρος)
+                        <a href="https://ucy.ac.cy/dir/en/component/comprofiler/userprofile/damianou" target="_blank">Παντελής Δαμιανού</a> (<a target="_blank" href="http://www.mas.ucy.ac.cy/">Τμ. Μαθηματικών</a>, Πανεπιστήμιο Κύπρου)
                         <br>
                         
-                        <a href="http://www.cs.ucy.ac.cy/~skevos/" target="_blank">Σκεύος Ευριπίδου</a> (Πανεπιστήμιο
-                        Κύπρου, Κύπρος)
+                        <a href="https://www.cs.ucy.ac.cy/~skevos/" target="_blank">Σκεύος Ευριπίδου</a> (<a target="_blank" href="https://www.cs.ucy.ac.cy/">Τμ. Πληροφορικής</a>,  Πανεπιστήμιο Κύπρου)
                         <br>
                         
-                        <a href="http://www.cs.ucy.ac.cy/~dzeina/" target="_blank">Δημήτρης Ζεϊναλιπούρ</a> (Πανεπιστήμιο Κύπρου,
-                        Κύπρος)
+                        <a href="https://www.cs.ucy.ac.cy/~dzeina/" target="_blank">Δημήτρης Ζεϊναλιπούρ</a> (<a target="_blank" href="https://www.cs.ucy.ac.cy/">Τμ. Πληροφορικής</a>,  Πανεπιστήμιο Κύπρου)
+                        <br>
+                
+                        <a href="http://ucy.ac.cy/dir/en/component/comprofiler/userprofile/sports" target="_blank">Μιχάλης Κρασιάς</a> (<a target="_blank" href="https://www.ucy.ac.cy/athletics/el/">Αθλητικό Κέντρο</a>, Πανεπιστήμιο Κύπρου)
                         <br>
                         
-                        <a href="http://ucy.ac.cy/dir/el/component/comprofiler/userprofile/petrosk" target="_blank">Πέτρος Κωμοδρόμος</a> (Πανεπιστήμιο
-                        Κύπρου, Κύπρος)
+                        <a href="https://ucy.ac.cy/dir/en/component/comprofiler/userprofile/kyriazis" target="_blank">Γεώργιος Κυριαζής</a> (<a target="_blank" href="https://www.ucy.ac.cy/athletics/el/">Αθλητικό Συμβούλιο</a>, Πανεπιστήμιο Κύπρου)
                         <br>
                         
-                        <a href=" " target="_blank">Κώστας Σοφοκλέους</a> (Πανεπιστήμιο  Κύπρου, Κύπρος)<br>
+                        <a href="http://ucy.ac.cy/dir/el/component/comprofiler/userprofile/petrosk" target="_blank">Πέτρος Κωμοδρόμος</a> (<a target="_blank" href="http://www.ucy.ac.cy/cee/el/">Τμ. Πολ. Μηχ. και Μηχ. Περιβάλλοντος</a>, Πανεπιστήμιο Κύπρου)
+                        <br>
+  
+                        Παρασκευάς Σαμάρας</a> (Ιστορικός Αθλητισμού και Αντιπρόεδρος Συνδέσμου Γυμναστών)
                         <br>
                         
+                        Κώστας Σοφοκλέους (<a target="_blank" href="http://www.ucy.ac.cy/mme/el/">Τμ. Μηχ. Μηχανολογίας και Κατασκευαστικής</a>, Πανεπιστήμιο Κύπρου)<br>
+                        <br>
                         
                         <strong>Ιστοσελίδα:</strong><br>
-                        <a href="" target="_blank"> Λούκας Σολέα</a> (Πανεπιστήμιο Κύπρου,
-                        Κύπρος) <br>
-                        
-                        
-                        
-                        
-                        
+                        <a href="https://dmsl.cs.ucy.ac.cy/" target="_blank"> Λούκας Σολέα</a> (<a target="_blank" href="https://www.cs.ucy.ac.cy/">Τμ. Πληροφορικής</a>,  Πανεπιστήμιο Κύπρου) <br>
                     </div>
                 </div>
                 <br>
@@ -887,75 +613,14 @@
                         <div class="section-title">
                             <h1>Διοργάνωση</h1>
                         </div>
-                        <a href="http://www.ucy.ac.cy" target="_blank"><img src="img/University_of_Cyprus_en.jpg"
-                            height="144" class="sponsors"></a>
-                        <!--<a href="https://pitt.edu/" target="_blank"><img-->
-                        <!--src="img/pitt-seal.png"-->
-                        <!--height="144" alt="University of Pittsburgh" class="sponsors"></a>-->
+                        <a href="http://www.ucy.ac.cy" target="_blank"><img src="img/ucy-bilingual.jpg"
+                            width="65%" class="sponsors"/></a>
                     </div>
                 </div>
             </div>
-            <!--
-             <div class="container">
-             <div class="row egg">
-             <br><br>
-             <div class="col-md-12 text-center">
-             <div class="section-title">
-             <h1>Υποστήριξη</h1>
-             </div>
-             <a href="http://www.tennis.com.cy/index.php/el/page/cyprus-tennis-federation" target="_blank"><img src="img/ctf-el.jpg"
-             height="100" class="sponsors"></a>
-             </div>
-             </div>
-             </div>-->
+            
         </section>
         
-        <!--<section id="section-sponsors" class="section-wrapper">-->
-        <!--<div class="container">-->
-        <!--<div class="row egg">-->
-        
-        <!--<div class="col-md-12 text-center">-->
-        <!--<div class="section-title">-->
-        <!--<h1>Χορηγοί</h1>-->
-        <!--</div>-->
-        <!--<a href="https://cyta.com.cy"-->
-        <!--target="_blank"><img-->
-        <!--src="img/LogoH_Cyta_CMYK_Hi.jpg"-->
-        <!--width="210" alt="CYTA" class="sponsors"></a>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row egg">-->
-        
-        <!--<div class="col-md-12 text-center">-->
-        
-        <!--<a href="https://book.austrian.com/app/fb.fly?action=preload&evoucher=HDMS18" target="_blank"><img-->
-        <!--src="img/austrian.png"-->
-        <!--height="144" alt="Austrian Airlines" class="sponsors"></a>-->
-        <!--<a href="http://www.mcw.gov.cy/mcw/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument"-->
-        <!--target="_blank"><img-->
-        <!--src="img/dacy.jpeg"-->
-        <!--height="144" alt="Department of Antiquities" class="sponsors"></a>-->
-        
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</section>-->
-        
-        <!--<section id="section-mngmt" class="section-wrapper yellow-bg">-->
-        <!--<div class="container">-->
-        <!--<div class="row egg">-->
-        
-        <!--<div class="col-md-12 text-center">-->
-        <!--<div class="section-title">-->
-        <!--<h1>Διαχείριση Συμποσίου</h1>-->
-        <!--</div>-->
-        <!--<a href="http://easyconferences.eu/" target="_blank"><img-->
-        <!--src="img/eclogo.png"-->
-        <!--width="210" alt="Easy Conferences" class="sponsors"></a>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</section>-->
         
         
         <section id="section-contact" class="section-wrapper yellow-bg">
@@ -966,7 +631,7 @@
                             <h1>Τοποθεσία Διεξαγωγής</h1>
                         </div>
                         <h3>Αθλητικές Εγκαταστάσεις - Πανεπιστήμιο Κύπρου</h3>
-                        <iframe width="100%" height="450" frameborder="0" scrolling="yes"   src="https://anyplace.cs.ucy.ac.cy/viewer/?buid=building_c0cfac36-4389-4c57-bd19-aca0e1232fd2_1438966158411&floor=0&selected=poi_469cf97f-1a40-4b30-b2cc-c0ed78b4d9a4"></iframe>
+                        <iframe width="100%" height="450" frameborder="0" scrolling="yes"   src="https://anyplace.cs.ucy.ac.cy/viewer/?cuid=ucy&buid=building_c0cfac36-4389-4c57-bd19-aca0e1232fd2_1438966158411&floor=0&selected=poi_469cf97f-1a40-4b30-b2cc-c0ed78b4d9a4"></iframe>
                     </div>
                     
                     <div class="col-md-6 text-center">
@@ -1004,7 +669,7 @@
             <div class="copyright-section">
                 <div class="container">
                     <div class="col-md-12">
-                        <div class="copytext text-center">© 2019 UCY. All rights reserved | Design and Maintenance: <a
+                        <div class="copytext text-center">© 2019 Πανεπιστήμιο Κύπρου | Δημιουργία και Συντήρηση: <a
                             href="https://dmsl.cs.ucy.ac.cy/" target="_blank">DMSL</a></div>
                     </div>
                 </div>
