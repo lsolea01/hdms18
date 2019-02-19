@@ -51,6 +51,10 @@ body {
  * Global Typography
  *------------------------------------------*/
 
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 15px;
     color: #3B5998;
@@ -160,6 +164,7 @@ ul {
     background-color: #51a9fd;
     border-color: #51a9fd;
 }
+
 
 /*.btn-primary:hover,*/
 /*.btn-primary:focus,*/
@@ -272,7 +277,7 @@ button:focus,
 }
 
 .navbar-brand > img {
-    width: 150px;
+    width: 200px;
     padding-top: 5px;
 }
 
@@ -281,7 +286,7 @@ button:focus,
 }
 
 .sticky-nav .navbar-brand.el > img {
-    content: url("../img/ucy_logo_el.png");
+    content: url("../img/University_of_Cyprus_2gr.jpg");
 }
 
 .navbar-brand.el > img {
@@ -920,12 +925,8 @@ ul {
     list-style-position: inside;
 }
 
-#section-archive ul, #section-archive li {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    list-style: none;
-
+ #section-archive li {
+padding-left: 50ex;
 }
 
 /*Flex items*/
