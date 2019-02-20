@@ -550,17 +550,19 @@ button:focus,
 
 
 
-@media only screen and (max-width: 437px) {
+@media only screen and (max-width: 438px) {
     #section-photos .container .text-center .text-buttons{
-        padding: 14%;
-        margin: 14%;
+        padding: 13%;
+        margin: 10%;
         /*align-items: inherit;*/
 
     }
 
     #gallery-button{
 
-         margin:13% ;
+         margin-right:15% ;
+        margin-left: 10%;
+
     }
 }
 
