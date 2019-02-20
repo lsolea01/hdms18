@@ -274,6 +274,8 @@ button:focus,
 
 .sticky-nav .navbar-brand > img {
     content: url("../img/UCY gr-eng logo white.png");
+    max-width: 100%;
+    padding-top: 5px;
 }
 
 .navbar-brand > img {
@@ -286,11 +288,16 @@ button:focus,
 }
 
 .sticky-nav .navbar-brand.el > img {
-    content: url("../img/University_of_Cyprus_2gr.jpg");
+    content: url("../img/ucy_logo_el.png");
+    max-width: 100%;
+    padding-top: 5px;
 }
 
 .navbar-brand.el > img {
     content: url("../img/UCY gr-eng logo white.png");
+    max-width: 100%;
+    padding-top: 5px;
+
 }
 
 @media (max-width: 768px) {
@@ -533,6 +540,33 @@ button:focus,
 .section-wrapper {
     padding: 100px 0;
 }
+
+
+/*-----------------------
+*Section Photo
+*------------------------*/
+
+
+
+
+
+@media only screen and (max-width: 437px) {
+    #section-photos .container .text-center .text-buttons{
+        padding: 14%;
+        margin: 14%;
+        /*align-items: inherit;*/
+
+    }
+
+    #gallery-button{
+
+         margin:13% ;
+    }
+}
+
+
+
+
 
 /*---------------------------
  * Section Title
@@ -925,11 +959,11 @@ ul {
     list-style-position: inside;
 }
 
- #section-archive li {
-padding-left: 15%;
+ /*#section-archive li {*/
+/*padding-left: 15%;*/
 
 
-}
+/*}*/
 
 /*Flex items*/
 #section-archive .list {
