@@ -273,29 +273,31 @@ button:focus,
 }
 
 .sticky-nav .navbar-brand > img {
-    content: url("../img/UCY gr-eng logo white.png");
-    max-width: 100%;
+    content: url("../img/ucy_en_el_white.png");
+    max-width: 250%;
     padding-top: 5px;
 }
 
 .navbar-brand > img {
-    width: 200px;
+    width: 250px;
     padding-top: 5px;
 }
 
 .navbar-brand > img {
-    content: url("../img/UCY gr-eng logo white.png");
+    content: url("../img/ucy_en_el_white.png");
 }
 
 .sticky-nav .navbar-brand.el > img {
-    content: url("../img/ucy_logo_el.png");
-    max-width: 100%;
+    content: url("../img/ucy_en_el.png");
+
+    width: 250px;
     padding-top: 5px;
 }
 
 .navbar-brand.el > img {
-    content: url("../img/UCY gr-eng logo white.png");
-    max-width: 100%;
+    content: url("../img/ucy_en_el_white.png");
+    max-width: 250%;
+
     padding-top: 5px;
 
 }
